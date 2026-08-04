@@ -1,6 +1,6 @@
 ![Dynamic Zero](cover-01.jpg)
 
-
+<br>
 
 # Dynamic Zero (DZ)
 
