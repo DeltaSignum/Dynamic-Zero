@@ -1,5 +1,7 @@
 ![Dynamic Zero](cover-01.jpg)
 
+
+
 # Dynamic Zero (DZ)
 
 **A Delta Signum Open Engineering Project**
