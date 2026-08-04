@@ -84,7 +84,7 @@ Dynamic Zero is not compatible with conventional Thiele–Small modelling. T/S a
 
 ## Key Experimental Observations
 
-- **Subharmonic generation:** Coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally with input frequency — structured, not chaotic.
+- **Subharmonic generation:** Coherent subharmonic behaviour observed under specific drive conditions. The subharmonic evolution is rhythmic and repeatable rather than chaotic.
 - **Infrasound pressure:** Physical ear canal pressure response confirmed with 2" drivers in Superblock configuration, measurable from 13 Hz upward.
 - **Array stabilisation:** Progressive low-frequency stabilisation and extension at each scaling step.
 - **Compensator time constant:** Closing the DM Delta Compensator eliminates DZ effects immediately. Re-opening requires approximately 4–5 seconds to re-establish the pneumatic energy state.
