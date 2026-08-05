@@ -71,7 +71,7 @@ Superblock
 Megablock
 ```
 
-![Megablock](../images/megablock.jpg)
+![Megablock](/images/megablock.jpg)
 
 Each level applies the same architectural principles at a different acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual Modules scale into Blocks and Superblocks.
 
