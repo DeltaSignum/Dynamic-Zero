@@ -17,7 +17,7 @@ It is an engineering research project.
 
 ## Origins
 
-![DZ first prototype, circa 2000](images/DZ_10inch_2000.jpg)
+![DZ first prototype, circa 2000](images/dz-prototype-2000-10inch.jpg)
 
 *First DZ prototype, circa 2000. 10-inch driver implementation.*
 
@@ -49,7 +49,7 @@ Current implementations represent experimental prototypes intended for research 
 
 ## Preliminary Measurements
 
-![Superblock SPL — signal vs. noise floor, 2 Hz–20 kHz](images/superblock-01.jpg)
+![Superblock SPL — signal vs. noise floor, 2 Hz–20 kHz](images/superblock-01-response.jpg)
 
 *Superblock configuration (4 Modules, 2" full-range drivers). Red: signal. Black: no-signal noise floor.
 MiniDSP UMIK-1, ~50 cm, workshop environment. Sweep 2 Hz–20 kHz.
