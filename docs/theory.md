@@ -12,6 +12,8 @@ Rather than treating the cabinet as a static passive box, DZ couples the transdu
 
 The architecture is grounded in a key physical observation in every conventional loudspeaker, the rear diaphragm surface generates an equal and opposite pressure wave that is deliberately discarded as waste. Dynamic Zero treats this anti-pressure not as a byproduct to be damped or absorbed, but as a coherent, recoverable energy state — the foundation upon which the system is built.
 
+![Dynamic Zero Principle](../images/dz-principle-diagram.jpg)
+
 ---
 
 ## Core Theoretical Framework & Physical Mechanics
