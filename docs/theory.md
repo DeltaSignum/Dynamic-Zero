@@ -88,9 +88,16 @@ This theoretical limit highlights the core promise of DZ low-frequency reproduct
 The following diagram illustrates the signal flow through the four core functional nodes of a single Module. It is important to note that this is not a linear chain, but a continuous, recursive cycle where the output state of one node becomes the input condition for the next, with energy perpetually circulating through the network
 
 ```mermaid
-graph TD
-    A[Driver Diaphragm] --Rear pressure wave B[Dynamic Mass Interchanger - DMI]
-    B --Mass accumulation C[DM Impulser]
-    C --Impulse injection D[DM Container]
-    D --Dual-state stored energy E[DM Delta Compensator]
-    E --Phase & asymmetry correction A
+flowchart TD
+    A["Driver Diaphragm"]
+    B["Dynamic Mass Interchanger (DMI)"]
+    C["DM Impulser"]
+    D["DM Container"]
+    E["DM Delta Compensator"]
+
+    A <--> B
+    B <--> C
+    C <--> D
+    D <--> E
+    E <--> A
+```
