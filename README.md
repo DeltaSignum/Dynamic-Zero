@@ -8,7 +8,7 @@
 
 Dynamic Zero (DZ) is an experimental open-source acoustic architecture exploring alternative approaches to loudspeaker system design.
 
-Rather than treating the loudspeaker enclosure as a passive structure, Dynamic Zero investigates whether the acoustic energy normally dissipated behind the diaphragm can become an active part of the a[...]
+Rather than treating the loudspeaker enclosure as a passive structure, Dynamic Zero investigates whether the acoustic energy normally dissipated behind the diaphragm can become an active part of the system.
 
 Dynamic Zero is not a commercial loudspeaker.
 It is an engineering research project.
@@ -25,7 +25,7 @@ The core architectural ideas behind Dynamic Zero were first implemented around 2
 
 The project remained dormant for many years. Financial constraints at the time of development, relocation, and the 2008 economic crisis interrupted its development rather than ending it.
 
-The current work began after the original prototypes were found for sale in a Vilnius audio showroom — more than two decades after they were built. That discovery prompted a return to the original a[...]
+The current work began after the original prototypes were found for sale in a Vilnius audio showroom — more than two decades after they were built. That discovery prompted a return to the original architectural framework.
 
 This repository documents the current state of that continuation.
 
@@ -49,10 +49,10 @@ Current implementations represent experimental prototypes intended for research 
 
 ## Preliminary Measurements
 
-![Superblock SPL — signal vs. noise floor, 2 Hz–20 kHz](images/block4-workshop.jpg)
-![Superblock SPL — open air](images/block4-open-air.jpg)
+![Block 4 SPL — signal vs. noise floor, 2 Hz–20 kHz](images/block4-workshop.jpg)
+![Block 4 SPL — open air](images/block4-open-air.jpg)
 
-*Superblock configuration (4 Modules, 2" full-range drivers). Red: signal. Black: no-signal noise floor.
+*Block 4 configuration (4 Modules, 2" full-range drivers). Red: signal. Black: no-signal noise floor.
 MiniDSP UMIK-1, ~50 cm, workshop environment. Sweep 2 Hz–20 kHz.
 Outdoor measurements (open air, Tenerife) show consistent results.*
 
@@ -60,7 +60,7 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ## Architecture
 
-Dynamic Zero is based on a recursive modular architecture built around four internal pneumatic elements: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Comp[...]
+Dynamic Zero is based on a recursive modular architecture built around four internal pneumatic elements: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
 
 ```
 Module
@@ -74,14 +74,14 @@ Megablock
 
 ![Megablock](/images/megablock.jpg)
 
-Each level applies the same architectural principles at a different acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual Mod[...]
+Each level applies the same architectural principles at a different acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual modules are recursively combined.
 
 The architecture supports two implementation paths:
 
 - **Recursive modular array** — Module → Block → Superblock → Megablock → N
 - **Standalone implementation** — a single enclosure (e.g. a multi-way loudspeaker) applying DZ principles without recursive scaling
 
-Dynamic Zero is not compatible with conventional Thiele–Small modelling. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with pneumatic s[...]
+Dynamic Zero is not compatible with conventional Thiele–Small modelling. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with pneumatic feedback coupling that violates these assumptions.
 
 ---
 
