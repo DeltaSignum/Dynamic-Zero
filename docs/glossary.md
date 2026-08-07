@@ -80,7 +80,7 @@ An 8×8 modular matrix containing 64 Modules total. Extended hierarchical scalin
 ---
 
 **Hierarchical Scaling Principle**  
-The recursive modular architecture: Module → Block 2 → Block 4 → Superblock 8 → Superblock 16 → Megablock 64 → (Gigablock, Terablock, etc. theoretically). Each quantisation level applies identical architectural principles at increasing acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary progressively lower with each hierarchical step.
+The recursive modular architecture: Module → Block 2 → Block 4 → Superblock 8 → Superblock 16 → Megablock 64 → N (theoretically unbounded). Each quantisation level applies identical architectural principles at increasing acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary progressively lower with each hierarchical step.
 
 ---
 
