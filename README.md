@@ -122,6 +122,7 @@ This repository does not ask for belief. It provides an engineering architecture
 - [Technical Theory & Framework](docs/theory.md) — Core hypotheses, Fd < Fin, +0/−0 architecture, internal mechanics
 - [Architecture Specification](docs/architecture.md) — Internal chamber specifications
 - [Measurements](docs/measurements.md) — Empirical FR, SPL, and impedance data
+- [DIY Guide](docs/diy.md) — Components, sourcing, 3D printing, slicer settings, assembly and amplifier recommendations
 
 ---
 
