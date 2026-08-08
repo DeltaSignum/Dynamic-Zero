@@ -59,8 +59,8 @@ The base functional unit of the DZ array architecture. Contains a single full-ra
 
 ---
 
-**Quantisation Level**  
-The hierarchical architectural principle in which each assembly class (Block, Superblock, Megablock, etc.) represents a discrete quantised scaling level. All assemblies at the same quantisation level share identical topological and pneumatic principles, regardless of module count.
+**Scaling Level**  
+The hierarchical architectural principle in which each assembly class (Block, Superblock, Megablock, etc.) represents a discrete scaling level. All assemblies at the same scaling level share identical topological and pneumatic principles, regardless of module count.
 
 ---
 
