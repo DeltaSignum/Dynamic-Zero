@@ -158,3 +158,13 @@ Dynamic Zero is the first public project released under the Delta Signum initiat
 ## Project Status
 
 Dynamic Zero is an active research project. The architecture continues to evolve through iterative prototyping, measurements and engineering refinement.
+
+---
+
+## License
+
+Dynamic Zero — © 2026 Mindaugas Mickus / Delta Signum Lab
+
+Licensed under [CC BY-NC 4.0](LICENSE.txt).
+
+Commercial licensing: [deltasignumlab@gmail.com](mailto:deltasignumlab@gmail.com)
