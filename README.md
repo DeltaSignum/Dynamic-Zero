@@ -150,7 +150,8 @@ images/
 
 Dynamic Zero is the first public project released under the Delta Signum initiative.
 
-🔗 [deltasignum.org](https://deltasignum.org)
+🔗 [deltasignum.org](https://deltasignum.org)  
+📬 lab@deltasignum.org
 
 ---
 
