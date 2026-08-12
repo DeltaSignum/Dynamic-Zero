@@ -81,7 +81,7 @@ The architecture supports two implementation paths:
 - **Recursive modular array** — Module → Block → Superblock → Megablock → N
 - **Standalone implementation** — a single enclosure (e.g. a multi-way loudspeaker) applying DZ principles without recursive scaling
 
-Dynamic Zero is not compatible with conventional Thiele–Small modelling. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with pneumatic feedback coupling that violates these assumptions.
+Conventional Thiele–Small modelling cannot fully characterise DZ behaviour. T/S parameters describe a linear, time-invariant system with a single static rest point. DZ introduces variables outside the T/S parameter set: the effective area ratio between the front and rear diaphragm surfaces, nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles. These parameters have no equivalent in the T/S framework.
 
 ---
 
