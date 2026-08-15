@@ -76,6 +76,8 @@ Megablock
 
 Each level applies the same architectural principles at a different acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual modules are recursively combined.
 
+The recursive hierarchy is a practical scaling recommendation, not a separate DZ operating principle. Its purpose is to provide a clear and repeatable way to scale the small 2" implementation toward higher SPL capability. A single Module can operate independently; for scaling, Block 2 is the recommended lowest practical element, with larger Blocks built according to the documented series/parallel hierarchy.
+
 The architecture supports two implementation paths:
 
 - **Recursive modular array** — Module → Block → Superblock → Megablock → N
