@@ -14,6 +14,8 @@ The architecture is grounded in a key physical observation in every conventional
 
 ![Dynamic Zero Principle](../images/dz-principle-diagram.jpg)
 
+![DZ Diagram — Proportions](../images/DZ%20diagram-proportions.jpg)
+
 ---
 
 ## Core Theoretical Framework & Physical Mechanics
