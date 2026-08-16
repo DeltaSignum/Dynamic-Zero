@@ -165,7 +165,6 @@ Parallel coupling remains possible but is expected to require significantly bett
 - **Subharmonic Generation:** Strong, coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally as input frequency changes — structured, not chaotic — consistent with a nonlinear system with memory.
 - **Array Stabilisation:** System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual Modules scale into Blocks and Superblocks.
 - **Compensator Time Constant:** Closing the DM Delta Compensator eliminates DZ effects immediately. Re-opening requires approximately 4–5 seconds for the system to re-establish its pneumatic energy state — consistent with a physical energy accumulation time constant, not an electronic switching artefact.
-- **Wood PLA vs. Standard PLA:** Enclosures printed in Wood PLA composite show measurably superior low-frequency behaviour compared to standard PLA, attributed to differences in internal damping and wall resonance characteristics.
 
 ---
 
