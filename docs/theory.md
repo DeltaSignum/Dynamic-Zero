@@ -109,11 +109,11 @@ Within an individual module, energy interchange operates as a continuous, moment
 
 ```mermaid
 graph TD
-    A[Driver Diaphragm] <-->|Rear pressure wave| B[Dynamic Mass Interchanger - DMI]
-    B <-->|Mass accumulation| C[DM Impulser]
-    C <-->|Impulse injection| D[DM Container]
-    D <-->|Dual-state stored energy| E[DM Delta Compensator]
-    E <-->|Phase & asymmetry correction| A
+    A[Driver Diaphragm] <--> B[Dynamic Mass Interchanger - DMI]
+    B <--> C[DM Impulser]
+    C <--> D[DM Container]
+    D <--> E[DM Delta Compensator]
+    E <--> A
 ```
 
 
