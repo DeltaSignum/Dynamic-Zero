@@ -24,7 +24,6 @@ The architecture is grounded in a single physical observation: in a conventional
 | Traditional Acoustics | Dynamic Zero (DZ) | Consequence |
 |---|---|---|
 | Static resting point (0 V reference) | Dual dynamic reference points (+0 / −0) | Symmetrical energy distribution across both half-cycles |
-| Passive mechanical return cycle | Active pneumatic drive in both half-cycles | Eliminates passive-return distortion |
 | Fixed free-air resonance (Fs) | Dynamic resonance (Fd < Fin) | Continuous acoustic loading at all frequencies |
 | Linear, time-invariant system | State-dependent, nonlinear system with memory | Adapts to instantaneous signal state in real time |
 | Thiele–Small (T/S) compatible | Fundamentally incompatible with T/S modelling | Requires new measurement and characterisation approach |
