@@ -83,7 +83,7 @@ The architecture supports two implementation paths:
 - **Recursive modular array** — Module → Block → Superblock → Megablock → N
 - **Standalone implementation** — a single enclosure (e.g. a multi-way loudspeaker) applying DZ principles without recursive scaling
 
-Conventional Thiele–Small modelling cannot fully characterise DZ behaviour. T/S parameters describe a linear, time-invariant system with a single static rest point. DZ introduces variables outside the T/S parameter set: the effective front-to-rear interaction area ratio (including rear-side restrictions from the voice-coil former, basket openings and motor structure, nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles. These parameters have no equivalent in the T/S framework.
+Conventional Thiele–Small modelling cannot fully characterise DZ behaviour. T/S parameters describe a linear, time-invariant system with a single static rest point. DZ introduces variables outside the T/S parameter set: the effective front-to-rear interaction area ratio (including rear-side restrictions from the voice-coil former, basket openings and motor structure), nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles. These parameters have no equivalent in the T/S framework.
 
 ---
 
