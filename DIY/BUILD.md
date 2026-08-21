@@ -1,0 +1,220 @@
+# Dynamic Zero — DIY Build Guide
+
+This guide contains the parts, materials and basic instructions required to reproduce the Dynamic Zero reference build.
+
+The parts shown below are the parts used for this build.
+
+---
+
+## 1. Parts and Materials
+
+### 1.1 Speakers
+
+Use **SOTAMIA 2" full-range, 4 Ω, 10 W drivers**.
+
+For this build, **two drivers connected in series are recommended**.
+
+Different drivers will behave differently.
+
+![SOTAMIA 2-inch driver](Sotamia-2-inch.jpg)
+
+### Driver dimensions
+
+Reference dimensions for the specified driver and gaskets:
+
+![Driver and gasket dimensions](Gaskets.jpg)
+
+---
+
+### 1.2 Speaker Connectors
+
+Use **4 mm banana connectors**.
+
+![4 mm banana connectors](banana-4-mm.jpg)
+
+---
+
+### 1.3 Rubber Feet
+
+Use **11 × 9 × 6 mm rubber feet** with a **3 mm mounting hole**.
+
+![11x9x6 mm rubber feet](pie-11x9x6.jpg)
+
+---
+
+### 1.4 Screws
+
+Use:
+
+- **M3 × 6 mm self-tapping screws**
+- **M2 × 8 mm thin-head self-tapping screws**
+
+Torx or hex socket heads can be used.
+
+For small inexpensive screws, **Torx is recommended because the head is less likely to strip during assembly**.
+
+#### M3 × 6 mm
+
+![M3x6 screws](screw-3x6.jpg)
+
+#### M2 × 8 mm
+
+![M2x8 screws](screw-2x8.jpg)
+
+---
+
+### 1.5 Speaker Cable
+
+Speaker cable is required for internal wiring.
+
+---
+
+### 1.6 Gasket Material
+
+Use **2 mm EVA foam sheet**.
+
+![2 mm EVA foam](gasket-foam.jpg)
+
+The supplied gasket template is used to cut the required pieces.
+
+A laser cutter can be used if available.
+
+If a laser cutter is not available, print the template at **100% / actual size** and cut the foam manually.
+
+**Do not use "Fit to page".**
+
+---
+
+### 1.7 Cotton Pads
+
+Use ordinary round makeup cotton pads approximately **55–60 mm in diameter**.
+
+Use approximately **3 pads per module**.
+
+The exact number may vary depending on the thickness of the pads from the manufacturer.
+
+Trim the sides to approximately **38 mm width**, as shown below.
+
+![Cotton pad preparation](cotton.jpg)
+
+---
+
+## 2. Print the Enclosure
+
+Use the supplied STL files.
+
+### Recommended print settings
+
+- **Material:** PLA or PETG
+- **Filament:** wood-filled filament recommended
+- **Infill:** 10%
+- **Perimeters:** 3
+- **Supports:** none
+- **Brim:** none
+
+**Three perimeters are sufficient.**
+
+The internal gap is part of the design.
+
+**Keep the internal geometry as designed. Do not fill the gap.**
+
+Printing temperature and other filament-specific settings should be selected according to the filament manufacturer's recommendations.
+
+### PrusaSlicer reference
+
+![PrusaSlicer reference](Slicer-01-infill-10-perc.jpg)
+
+---
+
+## 3. Prepare the Gaskets
+
+Use the supplied gasket template and **2 mm EVA foam**.
+
+### With a laser cutter
+
+Use the supplied **SVG file** directly for laser cutting.
+
+### Without a laser cutter
+
+Print the gasket template at:
+
+**100% / Actual Size**
+
+Do not scale the template and do not use **Fit to page**.
+
+Transfer the template to the 2 mm EVA foam and cut it manually using a suitable cutting tool.
+
+---
+
+## 4. Prepare the Cotton Pads
+
+Use **55–60 mm round makeup cotton pads**.
+
+Trim both sides as shown in the drawing, leaving approximately **38 mm width**.
+
+Use approximately **3 pads per module**.
+
+The exact number may vary slightly depending on the thickness of the pads.
+
+![Cotton pad preparation](cotton.jpg)
+
+---
+
+## 5. Assembly
+
+1. Print the enclosure.
+2. Cut the 2 mm EVA gaskets.
+3. Prepare the cotton pads.
+4. Install the cotton pads.
+5. Install the EVA gaskets.
+6. Install the SOTAMIA 2" drivers.
+7. Install the 4 mm banana connectors.
+8. Connect the drivers using speaker cable.
+9. Install the rubber feet.
+10. Check all connections before connecting the system to an amplifier.
+
+---
+
+## 6. Wiring
+
+Connect the **two 4 Ω drivers in series**.
+
+Speaker cable is required for the internal connections.
+
+---
+
+## 7. Design Files
+
+The complete reproduction package will include:
+
+- Individual **STL files** for 3D printing
+- Complete **STL ZIP package**
+- **SVG gasket file** for laser cutting
+- Gasket dimensions
+- Driver dimensions
+- PrusaSlicer reference settings
+- Component reference photographs
+
+Individual STL files will also be available separately so the models can be previewed before printing.
+
+---
+
+## 8. Build. Test. Listen.
+
+The STL files, dimensions and reference parts are provided so the physical system can be reproduced and tested independently.
+
+Print it.
+
+Build it.
+
+Measure it.
+
+Listen to it.
+
+**Enjoy the infra.**
+
+---
+
+**DeltaSignum — Dynamic Zero**
+
+*Open source. Build it, measure it, listen to it.*
