@@ -110,7 +110,7 @@ The exact number may vary depending on the thickness of the pads from the manufa
 
 Trim the sides to approximately **38 mm width**, as shown below.
 
-![Cotton pad preparation](cotton.jpg)
+![Cotton pad preparation](cotton-instalation.jpg)
 
 ---
 
