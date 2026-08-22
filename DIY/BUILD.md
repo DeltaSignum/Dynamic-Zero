@@ -92,6 +92,10 @@ Speaker cable is required for internal wiring.
 
 Use **2 mm EVA foam sheet**.
 
+This is standard craft EVA foam and can usually be found in stationery, craft or hobby stores.
+
+No specific manufacturer is required.
+
 ![2 mm EVA foam](gasket-foam.jpg)
 
 The supplied gasket template is used to cut the required pieces.
