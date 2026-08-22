@@ -4,6 +4,10 @@ This guide contains the parts, materials and basic instructions required to repr
 
 The parts shown below are the parts used for this build.
 
+> **Sourcing note:** The links below point to parts used for the reference build.
+> AliExpress listings may change or disappear over time. The photographs and
+> specifications in this guide remain the reference.
+
 ---
 
 ## 1. Parts and Materials
@@ -17,6 +21,8 @@ For the basic build, **two drivers connected in series are recommended**.
 Different drivers will behave differently.
 
 ![SOTAMIA 2-inch driver](Sotamia-2-inch.jpg)
+
+**Source:** [AliExpress](https://es.aliexpress.com/item/1005011892426743.html)
 
 ### Driver dimensions
 
@@ -32,6 +38,8 @@ Use **4 mm banana connectors**.
 
 ![4 mm banana connectors](banana-4-mm.jpg)
 
+**Source:** [AliExpress](https://es.aliexpress.com/item/1005009310035531.html)
+
 ---
 
 ### 1.3 Rubber Feet
@@ -40,14 +48,25 @@ Use **11 × 9 × 6 mm rubber feet** with a **3 mm mounting hole**.
 
 ![11x9x6 mm rubber feet](pie-11x9x6.jpg)
 
+**Source:** [AliExpress](https://es.aliexpress.com/item/4001185787792.html)
+
 ---
 
 ### 1.4 Screws
 
 Use:
 
-- **M3 × 6 mm self-tapping screws**
-- **M2 × 8 mm thin-head self-tapping screws**
+#### M3 × 6 mm — speaker / feet
+
+![M3x6 screws](screw-3x6.jpg)
+
+**Source:** [AliExpress](https://es.aliexpress.com/item/1005003179188298.html)
+
+#### M2 × 8 mm — covers
+
+![M2x8 screws](screw-2x8.jpg)
+
+**Source:** [AliExpress](https://es.aliexpress.com/item/1005011545930370.html)
 
 Torx or hex socket heads can be used.
 
