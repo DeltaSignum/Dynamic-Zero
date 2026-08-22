@@ -72,14 +72,6 @@ Torx or hex socket heads can be used.
 
 For small inexpensive screws, **Torx is recommended because the head is less likely to strip during assembly**.
 
-#### M3 × 6 mm
-
-![M3x6 screws](screw-3x6.jpg)
-
-#### M2 × 8 mm
-
-![M2x8 screws](screw-2x8.jpg)
-
 ---
 
 ### 1.5 Speaker Cable
