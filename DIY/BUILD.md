@@ -206,18 +206,20 @@ Connect the four drivers in series as shown below.
 
 ## 7. Design Files
 
-The complete reproduction package will include:
+The complete reproduction package contains:
 
-- Individual **STL files** for 3D printing
-- Complete **STL ZIP package**
-- **SVG gasket file** for laser cutting
-- Gasket dimensions
-- Driver dimensions
-- PrusaSlicer reference settings
-- Component reference photographs
+- 3D-printable STL files
+- SVG gasket file for laser cutting
 
-Individual STL files will also be available separately so the models can be previewed before printing.
+### Download
 
+**[Download STL + SVG files](STL_SVG.zip)**
+
+The mirrored modules are created using the **Mirror** function in your slicer, as described above.
+
+---
+
+## 8. Build. Test. Listen.
 ---
 
 ## 8. Build. Test. Listen.
