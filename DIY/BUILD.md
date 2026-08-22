@@ -12,7 +12,7 @@ The parts shown below are the parts used for this build.
 
 Use **SOTAMIA 2" full-range, 4 Ω, 10 W drivers**.
 
-For this build, **two drivers connected in series are recommended**.
+For the basic build, **two drivers connected in series are recommended**.
 
 Different drivers will behave differently.
 
@@ -174,12 +174,19 @@ The exact number may vary slightly depending on the thickness of the pads.
 10. Check all connections before connecting the system to an amplifier.
 
 ---
-
 ## 6. Wiring
 
-Connect the **two 4 Ω drivers in series**.
+For the basic configuration, connect **two 4 Ω drivers in series**.
 
 Speaker cable is required for the internal connections.
+
+### Block 4
+
+Four modules can be assembled as a **Block 4** configuration.
+
+Connect the four drivers in series as shown below.
+
+![Dynamic Zero Block 4 configuration and wiring](Block4.jpg)
 
 ---
 
