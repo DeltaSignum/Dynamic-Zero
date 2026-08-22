@@ -222,22 +222,6 @@ The mirrored modules are created using the **Mirror** function in your slicer, a
 ## 8. Build. Test. Listen.
 ---
 
-## 8. Build. Test. Listen.
-
-The STL files, dimensions and reference parts are provided so the physical system can be reproduced and tested independently.
-
-Print it.
-
-Build it.
-
-Measure it.
-
-Listen to it.
-
-**Enjoy the infra.**
-
----
-
 **DeltaSignum — Dynamic Zero**
 
 *Open source. Build it, measure it, listen to it.*
