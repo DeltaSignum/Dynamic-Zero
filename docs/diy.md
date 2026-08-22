@@ -12,3 +12,5 @@ Planned contents:
 - Slicer settings
 - Assembly instructions
 - Wiring diagram
+
+https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md
