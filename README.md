@@ -151,7 +151,6 @@ measurements/
 images/
 DIY/
     BUILD.md
-```
 
 ---
 
