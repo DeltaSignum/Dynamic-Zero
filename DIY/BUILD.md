@@ -118,12 +118,26 @@ The internal gap is part of the design.
 
 **Keep the internal geometry as designed. Do not fill the gap.**
 
-Printing temperature and other filament-specific settings should be selected according to the filament manufacturer's recommendations.
+Printing temperature and other filament-specific settings should be selected
+according to the filament manufacturer's recommendations.
+
+### Mirrored modules
+
+For a **Block 4** build, print:
+
+- **2 normal modules**
+- **2 mirrored modules**
+
+There is no separate mirrored STL file. Use the **Mirror** function in your
+slicer before printing the mirrored modules.
+
+The required orientation is shown below.
+
+![Dynamic Zero Block 4 — normal and mirrored modules](Block4.jpg)
 
 ### PrusaSlicer reference
 
 ![PrusaSlicer reference](Slicer-01-infill-10-perc.jpg)
-
 ---
 
 ## 3. Prepare the Gaskets
