@@ -192,13 +192,13 @@ The exact number may vary slightly depending on the thickness of the pads.
 ## 5. Assembly
 
 1. Print the enclosure.
-2. Cut the 2 mm EVA gaskets.
-3. Prepare the cotton pads.
-4. Install the cotton pads.
-5. Install the EVA gaskets.
-6. Install the SOTAMIA 2" drivers.
-7. Install the 4 mm banana connectors.
-8. Connect the drivers using speaker cable.
+2. Solder the speaker cables to the 4 mm banana connectors.
+3. Install the 4 mm banana connectors.
+4. Prepare the cotton pads.
+5. Install the cotton pads.
+6. Cut and install the 2 mm EVA gaskets.
+7. Install the front covers.
+8. Connect and install the SOTAMIA 2" drivers.
 9. Install the rubber feet.
 10. Check all connections before connecting the system to an amplifier.
 
