@@ -187,6 +187,18 @@ Both paths share the same core operating principle. The choice between them is a
 
 ---
 
+## Relation to Acoustic Suspension
+
+DZ was developed independently of Villchur's work, but can be understood as its extension. Villchur used enclosed air as a spring. DZ uses enclosed air as a working fluid in a regenerative pneumatic system.
+
+**Acoustic suspension: air as spring.**
+
+**Dynamic Zero: air as working fluid.**
+
+The historical path is independent, but the physical idea is continuous: **from spring to engine.**
+
+---
+
 ## Repository Structure
 
 ```
