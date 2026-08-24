@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delta Signum · Dynamic Zero</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #fcfaf8;
+            color: #1a1a1a;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            line-height: 1.6;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .brand-logo {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
+
+        .brand-link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .brand-link:hover {
+            opacity: 0.85;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem 1.1rem;
+            margin: 1.4rem 0 0.5rem;
+            font-size: 0.86rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .nav a {
+            text-decoration: none;
+            border-bottom: 1px solid #bbb;
+        }
+
+        .nav a:hover {
+            border-bottom-color: #1a1a1a;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.2rem;
+        }
+
+        h2 {
+            font-weight: 500;
+        }
+
+        .sub {
+            font-size: 1.1rem;
+            color: #5a5a5a;
+            margin-bottom: 2rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 2rem 0;
+        }
+
+        .box {
+            background: #f3f0ed;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+        }
+
+        .enjoy {
+            background: #1a1a1a;
+            color: #fcfaf8;
+            padding: 1.6rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            font-size: 1.15rem;
+            text-align: center;
+        }
+
+        a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1a1a1a;
+            color: #fcfaf8;
+            padding: 0.7rem 1.8rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 0.8rem;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+
+        ol {
+            padding-left: 1.4rem;
+        }
+
+        li {
+            margin-bottom: 0.55rem;
+        }
+
+        .small {
+            font-size: 0.95rem;
+            color: #5a5a5a;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 520px) {
+            body {
+                padding: 2rem 1.1rem;
+            }
+
+            .brand-logo {
+                width: 50px;
+                height: 50px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .nav {
+                gap: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="brand">
+        <a class="brand-link" href="/" aria-label="Delta Signum home">
+            <img class="brand-logo" src="images/logo.svg" alt="Delta Signum logo">
+            <h1>Delta Signum</h1>
+        </a>
+    </div>
+
+    <div class="sub">
+        Experimental open engineering · Dynamic Zero
+    </div>
+
+    <nav class="nav">
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero">PROJECT</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md">DIY BUILD</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/theory.md">THEORY</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/dz-ice-analogy.md">CONCEPTUAL ANALOGIES</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/discussions">DISCUSSION</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/releases">DOWNLOAD STL</a>
+    </nav>
+
+    <hr>
+
+    <p>
+        Dynamic Zero (DZ) is an experimental acoustic system built around
+        a simple 2" driver and capable of producing measurable output
+        deep into the infrasonic region.
+    </p>
+
+    <p>
+        It was not created as a commercial loudspeaker.
+        It is an open engineering architecture that anyone can build,
+        listen to, measure and investigate independently.
+    </p>
+
+    <div class="box">
+        <strong>One module — one inexpensive 2" driver.</strong><br>
+        No expensive components. No exotic manufacturing.
+        Standard 3D printing, simple hardware and a small loudspeaker.
+    </div>
+
+    <hr>
+
+    <h2>How to start</h2>
+
+    <ol>
+        <li>
+            Download the STL files and assembly instructions.
+        </li>
+
+        <li>
+            Follow the supplied slicer settings and print orientation.
+        </li>
+
+        <li>
+            Print the enclosure using the recommended filament.
+        </li>
+
+        <li>
+            Prepare the 2 mm soft foam gasket using the supplied
+            1:1 cutting template.
+        </li>
+
+        <li>
+            Install the terminals, wiring and damping material.
+        </li>
+
+        <li>
+            Install the 2" driver and assemble the enclosure
+            according to the guide.
+        </li>
+
+        <li>
+            Connect it to an amplifier.
+        </li>
+    </ol>
+
+    <div class="enjoy">
+        <strong>Enjoy the infrasound that shouldn't be there.</strong>
+    </div>
+
+    <div class="box">
+        <strong>
+            Everything required to reproduce the reference build
+            is published.
+        </strong>
+
+        <br><br>
+
+        STL files · slicer settings · print orientation ·
+        filament recommendations · gasket template ·
+        gasket material · bill of materials · component sources ·
+        assembly instructions · reference measurements.
+    </div>
+
+    <div style="margin: 2rem 0;">
+        <a
+            href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md"
+            class="btn"
+        >
+            DIY build · GitHub
+        </a>
+    </div>
+
+    <hr>
+
+    <h2>Why Dynamic Zero?</h2>
+
+    <p>
+        Conventional loudspeaker systems normally absorb, vent or delay
+        the acoustic energy produced behind the diaphragm.
+    </p>
+
+    <p>
+        Dynamic Zero began with a different question:
+    </p>
+
+    <div class="box">
+        <strong>
+            What happens if the rear-side pneumatic energy becomes
+            part of the operating cycle instead of simply being discarded?
+        </strong>
+    </div>
+
+    <p>
+        The current 2" implementation is the smallest practical
+        experimental version of that idea.
+    </p>
+
+    <p>
+        Its low-frequency behaviour was not the original goal.
+        It appeared as a consequence of the architecture.
+    </p>
+
+    <hr>
+
+    <h2>Build it yourself</h2>
+
+    <p>
+        The design intentionally uses inexpensive, easily sourced
+        2" drivers and normal 3D-printing tolerances.
+    </p>
+
+    <p>
+        You do not need to accept the proposed operating hypothesis.
+    </p>
+
+    <p>
+        Print it.
+        Build it.
+        Listen to it.
+        Measure it.
+        Take it apart.
+        Change it.
+    </p>
+
+    <div class="box">
+        <strong>
+            Then decide for yourself what kind of system it is.
+        </strong>
+    </div>
+
+    <hr>
+
+    <h2>Open replication</h2>
+
+    <p>
+        Dynamic Zero is published as an open engineering project.
+        The geometry, construction information and measurements are
+        made available so that the project does not depend on claims
+        made by its creator.
+    </p>
+
+    <p>
+        Independent builds, measurements, simulations and criticism
+        are welcome.
+    </p>
+
+    <p class="small">
+        If you build one, publish what you find.
+        Matching results are useful.
+        Different results are useful too.
+    </p>
+
+    <hr>
+
+    <h2>Project</h2>
+
+    <p>
+        Dynamic Zero is an active experimental project.
+        The current design is not presented as a finished or optimised
+        loudspeaker product.
+    </p>
+
+    <p>
+        It is a physical architecture that can be reproduced.
+    </p>
+
+    <div class="footer">
+        Delta Signum ·
+        <a href="mailto:lab@deltasignum.org">
+            lab@deltasignum.org
+        </a>
+
+        <br>
+
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero">
+            github.com/DeltaSignum/Dynamic-Zero
+        </a>
+    </div>
+
+</body>
+</html>
