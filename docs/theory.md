@@ -133,10 +133,10 @@ Dynamic Zero is designed as an **expandable, self-similar architecture** rather 
 
 ```mermaid
 graph LR
-    A[Module 1×] <--> B[Block 2×]
-    B <--> C[Superblock 4×]
-    C <--> D[Megablock 16×]
-    D <--> E[...N×]
+    A[Module 1×] --> B[Block 2×]
+    B --> C[Block 4×]
+    C --> D[Superblock 8×]
+    D --> E[...N×]
 ```
 
 - **Module (1 Node):** Base functional unit containing a full-range transducer and internal coupling chambers.
