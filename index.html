@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Delta Signum · Dynamic Zero</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
 
     <style>
         body {
@@ -15,6 +16,51 @@
             margin: 0 auto;
             padding: 3rem 1.5rem;
             line-height: 1.6;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .brand-logo {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
+
+        .brand-link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .brand-link:hover {
+            opacity: 0.85;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem 1.1rem;
+            margin: 1.4rem 0 0.5rem;
+            font-size: 0.86rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .nav a {
+            text-decoration: none;
+            border-bottom: 1px solid #bbb;
+        }
+
+        .nav a:hover {
+            border-bottom-color: #1a1a1a;
         }
 
         h1 {
@@ -96,16 +142,48 @@
             font-size: 0.9rem;
             color: #888;
         }
+
+        @media (max-width: 520px) {
+            body {
+                padding: 2rem 1.1rem;
+            }
+
+            .brand-logo {
+                width: 50px;
+                height: 50px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .nav {
+                gap: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <h1>Delta Signum</h1>
+    <div class="brand">
+        <a class="brand-link" href="/" aria-label="Delta Signum home">
+            <img class="brand-logo" src="logo.svg" alt="Delta Signum logo">
+            <h1>Delta Signum</h1>
+        </a>
+    </div>
 
     <div class="sub">
         Experimental open engineering · Dynamic Zero
     </div>
+
+    <nav class="nav" aria-label="Project navigation">
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero">Project</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md">DIY Build</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/theory.md">Theory</a>
+        <a href="https://github.com/DeltaSignum/Dynamic-Zero/releases">Download STL</a>
+    </nav>
 
     <hr>
 
@@ -170,7 +248,7 @@
     <div class="box">
         <strong>
             Everything required to reproduce the reference build
-            will be published.
+            is published.
         </strong>
 
         <br><br>
@@ -183,10 +261,10 @@
 
     <div style="margin: 2rem 0;">
         <a
-            href="https://github.com/DeltaSignum/Dynamic-Zero"
+            href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md"
             class="btn"
         >
-            Download files · GitHub
+            DIY build · GitHub
         </a>
     </div>
 
