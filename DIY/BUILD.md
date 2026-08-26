@@ -153,6 +153,10 @@ The required orientation is shown below.
 ### PrusaSlicer reference
 
 ![PrusaSlicer reference](Slicer-01-infill-10-perc.jpg)
+
+> **IMPORTANT — PRINT WITHOUT SUPPORTS.**  
+> **Do not enable support material.** The internal DZ structure is designed for support-free printing. Supports inside the enclosure cannot be removed and may damage or block the internal pneumatic structure.
+
 ---
 
 ## 3. Prepare the Gaskets
