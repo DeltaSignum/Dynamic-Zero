@@ -49,6 +49,10 @@ Current implementations represent experimental prototypes intended for research 
 
 ## Preliminary Measurements
 
+> **Note on Measurements:** These measurements were made on a miniature physical 2-inch laboratory model built as a working demonstration of the principle and as an addition to the theory, not as a full-fledged acoustic system. These graphs should be evaluated in a “binary 1/0” context: confirming the presence or absence of the response.
+
+---
+
 ![Block 4 SPL — signal vs. noise floor, 2 Hz–20 kHz](images/block4-workshop.jpg)
 ![Block 4 SPL — open air](images/block4-open-air.jpg)
 
