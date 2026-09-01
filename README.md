@@ -3,9 +3,11 @@
 <br>
 
 # Dynamic Zero (DZ)
-### (Dynamic Diffuser Mass)
+### *(originally referred to as Dynamic Diffuser Mass)*
 
 **A Delta Signum Open Engineering Project**
+
+**A fully balanced mechanical-pneumatic architecture operating around dual dynamic reference points: +0 and −0.**
 
 Dynamic Zero (DZ) is an experimental open engineering acoustic architecture exploring alternative approaches to loudspeaker system design. The architecture operates as a hybrid of acoustic-pneumatic mechanics and state-dependent momentum continuity.
 
