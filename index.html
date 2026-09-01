@@ -63,6 +63,52 @@
             border-bottom-color: #1a1a1a;
         }
 
+        .nav-item {
+            position: relative;
+            display: inline-block;
+        }
+
+        .nav-trigger {
+            cursor: default;
+            border-bottom: 1px solid #bbb;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 210px;
+            padding-top: 0.45rem;
+            z-index: 20;
+        }
+
+        .dropdown-inner {
+            background: #fcfaf8;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 0.45rem 0;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 0.55rem 0.8rem;
+            border-bottom: none;
+            white-space: nowrap;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+
+        .dropdown a:hover {
+            background: #f3f0ed;
+        }
+
+        .nav-item:hover .dropdown,
+        .nav-item:focus-within .dropdown {
+            display: block;
+        }
+
         h1 {
             font-size: 2.5rem;
             font-weight: 400;
@@ -182,7 +228,26 @@
         <a href="https://github.com/DeltaSignum/Dynamic-Zero">PROJECT</a>
         <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/DIY/BUILD.md">DIY BUILD</a>
         <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/theory.md">THEORY</a>
-        <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/dz-ice-analogy.md">CONCEPTUAL ANALOGIES</a>
+
+        <span class="nav-item">
+            <span class="nav-trigger" tabindex="0">SOFTWARE ▾</span>
+            <span class="dropdown">
+                <span class="dropdown-inner">
+                    <a href="/software/Dz-Generator-V2-lg.html">DZ Generator</a>
+                </span>
+            </span>
+        </span>
+
+        <span class="nav-item">
+            <span class="nav-trigger" tabindex="0">CONCEPTUAL ANALOGIES ▾</span>
+            <span class="dropdown">
+                <span class="dropdown-inner">
+                    <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/dz-ice-analogy.md">ICE</a>
+                    <a href="https://github.com/DeltaSignum/Dynamic-Zero/blob/main/docs/dz_villchur_analogy.md">Villchur</a>
+                </span>
+            </span>
+        </span>
+
         <a href="https://github.com/DeltaSignum/Dynamic-Zero/discussions">DISCUSSION</a>
     </nav>
 
