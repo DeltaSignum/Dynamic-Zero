@@ -3,6 +3,7 @@
 <br>
 
 # Dynamic Zero (DZ)
+### (Dynamic Diffuser Mass)
 
 **A Delta Signum Open Engineering Project**
 
