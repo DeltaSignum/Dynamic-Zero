@@ -63,6 +63,18 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ---
 
+### Near-field OPEN / CLOSED comparison (~2 cm)
+
+![DMDC OPEN / CLOSED near-field comparison](images/dmdc-open-closed-nearfield.png)
+
+*Near-field measurement at approximately 2 cm from the diaphragm.*
+
+This measurement is not a frequency-response characterization of the complete DZ system. The microphone was positioned approximately 2 cm from the diaphragm for a direct local A/B comparison between DMDC OPEN and DMDC CLOSED states.
+
+**The measured behaviour is not characteristic of a conventional bass-reflex (DBR) system.**
+
+---
+
 ## Architecture
 
 Dynamic Zero is based on a recursive modular architecture built around four internal pneumatic elements: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
