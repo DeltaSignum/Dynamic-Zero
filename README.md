@@ -61,6 +61,8 @@ Current implementations represent experimental prototypes intended for research 
 MiniDSP UMIK-1, ~50 cm, workshop environment. Sweep 2 Hz–20 kHz.
 Outdoor measurements (open air, Tenerife) show consistent results.*
 
+---
+
 ![DMDC OPEN / CLOSED near-field comparison](images/dmdc_c_o_nf.jpg)
 
 *Near-field measurement at approximately 2 cm from the diaphragm.*
