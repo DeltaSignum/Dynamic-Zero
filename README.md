@@ -188,6 +188,11 @@ Dynamic Zero is an active research project. The architecture continues to evolve
 
 ---
 
+**Note:** Texts were organized and edited in English with AI assistance.  
+All concepts, measurements, and conclusions are the author's original work.
+
+---
+
 ## License
 
 Dynamic Zero — © 2026 Mindaugas Mickus / Delta Signum Lab
