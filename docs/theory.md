@@ -211,12 +211,5 @@ The historical path is independent, but the physical idea is continuous: **from 
 ├── hardware/              # Assembly topology & coupling hardware specifications
 └── images/                # Array topology diagrams, SPL plots, schema
 ```
-
 ---
-
-**Note:** Texts were organized and edited in English with AI assistance.  
-All concepts, measurements, and conclusions are the author's original work.
-
----
-
 *Delta Signum — deltasignum.org*
