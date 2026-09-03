@@ -75,32 +75,19 @@ This measurement is not a frequency-response characterization of the complete DZ
 
 ---
 
-## Architecture
+## System scaling
 
-Dynamic Zero is based on a recursive modular architecture built around four internal pneumatic elements: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
-
-```
-Module
-   ↓
-Block
-   ↓
-Superblock
-   ↓
-Megablock
-```
+---
 
 ![Megablock](/images/megablock.jpg)
 
-Each level applies the same architectural principles at a different acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary lowers as individual modules are recursively combined.
+## Recursive System Scaling
 
-The recursive hierarchy is a practical scaling recommendation, not a separate DZ operating principle. Its purpose is to provide a clear and repeatable way to scale the small 2" implementation toward higher SPL capability. A single Module can operate independently; for scaling, Block 2 is the recommended lowest practical element, with larger Blocks built according to the documented series/parallel hierarchy.
+During experimentation, DZ modules were observed to couple and behave as a single, larger, self-balancing pneumatic system. The recursive Module → Block → Superblock → Megablock arrangement shown below is therefore provided as a practical connection and scaling recommendation, rather than as a separate DZ operating principle.
 
-The architecture supports two implementation paths:
+The names indicate successive levels of parallel scaling, while the number indicates the total number of Modules at each level. In such a scaled system, the Block becomes the minimum unit.
 
 - **Recursive modular array** — Module → Block → Superblock → Megablock → N
-- **Standalone implementation** — a single enclosure (e.g. a multi-way loudspeaker) applying DZ principles without recursive scaling
-
-Conventional Thiele–Small modelling cannot fully characterise DZ behaviour. T/S parameters describe a linear, time-invariant system with a single static rest point. DZ introduces variables outside the T/S parameter set: the effective front-to-rear interaction area ratio (including rear-side restrictions from the voice-coil former, basket openings and motor structure), nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles. These parameters have no equivalent in the T/S framework.
 
 ---
 
