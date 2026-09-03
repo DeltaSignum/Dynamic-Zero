@@ -133,6 +133,7 @@ This repository does not ask for belief. It provides an engineering architecture
 ## Conceptual Analogies
 
 - [ICE ↔ DZ — Closed-Cycle Pneumatic Engine Analogy](docs/dz-ice-analogy.md)
+- [Conceptual Continuity: Villchur → Dynamic Zero](docs/dz_villchur_analogy.md)
 
 ---
 
