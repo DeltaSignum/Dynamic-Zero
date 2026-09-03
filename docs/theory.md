@@ -88,6 +88,8 @@ Instead, the DZ architecture is designed primarily around the pneumatic state an
 
 Therefore, reducing DZ to chamber volumes and equivalent port lengths can produce a conventional resonant model of the geometry, but it does not necessarily describe the pneumatic behaviour that the DZ architecture is intended to control.
 
+DZ also introduces system variables that are not represented directly in the conventional T/S parameter set: the effective front-to-rear interaction area ratio (including rear-side restrictions from the voice-coil former, basket openings and motor structure), nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles.
+
 ---
 
 ### 4. Theoretical Low-Frequency Extension Towards 0 Hz
