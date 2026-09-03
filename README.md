@@ -77,17 +77,13 @@ This measurement is not a frequency-response characterization of the complete DZ
 
 ## System scaling
 
----
-
 ![Megablock](/images/megablock.jpg)
 
 ## Recursive System Scaling
 
-During experimentation, DZ modules were observed to couple and behave as a single, larger, self-balancing pneumatic system. The recursive Module → Block → Superblock → Megablock arrangement shown below is therefore provided as a practical connection and scaling recommendation, rather than as a separate DZ operating principle.
+During experimentation, DZ modules were observed to couple and behave as a single, larger, self-balancing pneumatic system. The recursive Module → Block → Superblock → Megablock → N arrangement shown below is therefore provided as a practical connection and scaling recommendation, rather than as a separate DZ operating principle.
 
 The names indicate successive levels of parallel scaling, while the number indicates the total number of Modules at each level. In such a scaled system, the Block becomes the minimum unit.
-
-- **Recursive modular array** — Module → Block → Superblock → Megablock → N
 
 ---
 
