@@ -12,9 +12,6 @@ Rather than treating the cabinet as a static passive box, DZ couples the transdu
 
 The architecture is grounded in a single physical observation: in a conventional driver, the rear diaphragm surface generates an equal and opposite pressure wave that is discarded. DZ treats this anti-pressure as a real, recoverable energy state — the foundation of the entire system.
 
-
-![Dynamic Zero Principle](../images/dz-principle-diagram.jpg)
-
 ![DZ Diagram — Proportions](../images/DZ%20diagram-proportions.jpg)
 
 ---
