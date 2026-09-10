@@ -54,36 +54,6 @@ The retention of air mass momentum between successive half-cycles within the pne
 
 ---
 
-**Module**  
-The base functional unit of the DZ array architecture. Contains a single full-range transducer and the complete internal pneumatic network (DMI, DM Impulser, DM Container, DM Delta Compensator). Represents the fundamental quantised unit from which all larger assemblies are constructed.
-
----
-
-**Scaling Level**  
-The hierarchical architectural principle in which each assembly class (Block, Superblock, Megablock, etc.) represents a discrete scaling level. All assemblies at the same scaling level share identical topological and pneumatic principles, regardless of module count.
-
----
-
-**Block N**  
-A DZ quantisation level containing N modules in a paired reciprocal arrangement. The numeric designation indicates total module count (e.g., Block 2 = 2 Modules; Block 4 = 4 Modules in 2×2 configuration). All Block-level assemblies maintain the same quantisation principle and reciprocal pressure balance architecture.
-
----
-
-**Superblock N**  
-A quantisation level above Block, constructed from smaller assemblies in hierarchical array. Superblock 8 (8 Modules) represents the first scaling level at which emergent low-frequency behaviour becomes measurable and stable. Superblock 16 (16 Modules in 4×4 configuration) demonstrates progressive low-frequency extension and increased pressure output.
-
----
-
-**Megablock 64**  
-An 8×8 modular matrix containing 64 Modules total. Extended hierarchical scaling demonstrating theoretical predictions of progressive low-frequency extension and pressure increase. Empirical validation at this scale shows sustained stability and predictable scaling behaviour across frequency range.
-
----
-
-**Hierarchical Scaling Principle**  
-The recursive modular architecture: Module → Block 2 → Block 4 → Superblock 8 → Superblock 16 → Megablock 64 → N (theoretically unbounded). Each quantisation level applies identical architectural principles at increasing acoustic scale. System behaviour becomes progressively more stable and the effective low-frequency boundary progressively lower with each hierarchical step.
-
----
-
 **Reciprocal State Inversion**  
 At the +0/−0 transition point, the stored pneumatic state reverses its functional role — from an effective inertial mass to an active pressure wave — coupling energy stored during the previous half-cycle into the present half-cycle.
 
