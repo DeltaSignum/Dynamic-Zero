@@ -4,10 +4,7 @@ This guide contains the parts, materials and basic instructions required to repr
 
 The parts shown below are the parts used for this build.
 
-> **Sourcing note:** The links below point to parts used for the reference build.
-> AliExpress listings may change or disappear over time. The photographs and
-> specifications in this guide remain the reference.
-
+> > **Important:** Before ordering the loudspeaker driver, contact the author to confirm the currently recommended model. Supplier listings may change over time.
 ---
 
 ## 1. Parts and Materials
