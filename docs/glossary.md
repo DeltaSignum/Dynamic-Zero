@@ -14,8 +14,8 @@ The semicycle between the +0 and −0 reference points where Delta Signum first 
 
 ---
 
-**Dynamic Resonance (Fd)**  
-The instantaneous, state-dependent operational resonance frequency of the coupled driver-air system, dynamically modulated by fluid momentum. The DZ architecture maintains Fd < Fin across all operating conditions.
+**Dynamic Reference Frequency (Fd)**  
+The instantaneous, state-dependent effective frequency of the coupled driver-air system, maintained below the excitation frequency (Fd < Fin).
 
 ---
 
