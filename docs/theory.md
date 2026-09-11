@@ -23,7 +23,7 @@ The architecture is grounded in a single physical observation: in a conventional
 | Static resting point (0 V reference) | Dual dynamic reference points (+0 / −0) | Symmetrical energy distribution across both half-cycles |
 | Fixed free-air resonance (Fs) | Dynamic Unreachable Resonance (Fd < Fin) | Continuous acoustic loading at all frequencies |
 | Linear, time-invariant system | State-dependent, nonlinear system with memory | Adapts to instantaneous signal state in real time |
-| Thiele–Small (T/S) compatible | Fundamentally incompatible with T/S modelling | Requires new measurement and characterisation approach |
+| Thiele–Small (T/S) compatible | Not fully represented by conventional T/S enclosure modelling | Requires new measurement and characterisation approach |
 
 In essence, DZ treats the loudspeaker as a state-dependent pneumatic system rather than a purely reactive one, using the rear-wave energy as an active part of the acoustic process.
 
@@ -69,7 +69,7 @@ DZ introduces the concept of **Dynamic Resonance (Fd)**:
 - **Frequency Tracking (Fd < Fin):** As the incoming signal frequency (Fin) drops, the active moving air mass automatically increases, keeping the system's dynamic resonance Fd **continuously below the instantaneous input frequency**.
 - **Controlled Displacement:** Because Fin constantly remains above Fd, the diaphragm operates in a continuously loaded acoustic regime across all frequencies — eliminating uncontrolled sub-resonance excursion.
 
-> **Note:** DZ is fundamentally incompatible with Thiele–Small modelling. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with memory across half-cycles. Standard T/S tools cannot characterise its behaviour.
+> **Note:** Conventional T/S enclosure modelling does not fully characterise DZ behaviour. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with memory across half-cycles. Standard T/S tools cannot characterise its behaviour.
 
 ---
 
