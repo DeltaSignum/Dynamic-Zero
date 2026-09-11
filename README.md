@@ -67,7 +67,7 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 # Impedance Measurements
 
-
+![Impedance — DZ vs. sealed box](images/dz_vs_sealed_impd.jpg)
 
 Impedance comparison using the same 2-inch driver.
 
