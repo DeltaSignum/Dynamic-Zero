@@ -52,7 +52,7 @@ Current implementations represent experimental prototypes intended for research 
 
 ## Preliminary Measurements
 
-> **Note on Measurements:** These measurements were made on a miniature physical 2-inch laboratory model built as a working demonstration of the principle and as an addition to the theory, not as a full-fledged acoustic system. These graphs should be evaluated in a “binary 1/0” context: confirming the presence or absence of the response.
+> **Note on this measurement:** TDue to the low SPL of the miniature 2-inch prototype and the measurement distance, this graph should primarily be evaluated in a “binary 1/0” context: confirming the presence or absence of the response rather than its absolute level.
 
 ---
 
