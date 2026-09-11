@@ -65,6 +65,32 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ---
 
+# Impedance Measurements
+
+
+
+Impedance comparison using the same 2-inch driver.
+
+- Driver Fs: approximately 168.9 Hz
+- Sealed reference rear volume: 0.35 L
+- DZ enclosure volume: approximately 0.47 L
+- Sense resistor: 15 Ω / 5 W
+- Calibration reference resistor: 5.3 Ω
+- Measurement software: REW V5.31.3
+- Full impedance calibration used
+
+## Observed result
+
+The sealed configuration shows its main impedance resonance at approximately 200 Hz.
+
+The DZ configuration shows its main impedance resonance at approximately 170 Hz.
+
+The corresponding impedance peaks are approximately 22 Ω and 25 Ω respectively.
+
+Raw REW measurement data are provided for independent inspection and analysis.
+
+---
+
 ![DMDC OPEN / CLOSED near-field comparison](images/dmdc_c_o_nf.jpg)
 
 *Near-field measurement at approximately 2 cm from the diaphragm.*
