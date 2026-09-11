@@ -4,8 +4,6 @@
 
 To avoid ambiguity, the terms used throughout the Dynamic Zero framework are defined as follows.
 
-To avoid ambiguity, the terms used throughout the Dynamic Zero framework are defined as follows.
-
 ---
 
 **+0 / −0 Reference Points**  
