@@ -69,7 +69,7 @@ DZ introduces the concept of **Dynamic Resonance (Fd)**:
 - **Frequency Tracking (Fd < Fin):** As the incoming signal frequency (Fin) drops, the active moving air mass automatically increases, keeping the system's dynamic resonance Fd **continuously below the instantaneous input frequency**.
 - **Controlled Displacement:** Because Fin constantly remains above Fd, the diaphragm operates in a continuously loaded acoustic regime across all frequencies — eliminating uncontrolled sub-resonance excursion.
 
-> **Note:** Conventional T/S enclosure modelling does not fully characterise DZ behaviour. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with memory across half-cycles. Standard T/S tools cannot characterise its behaviour.
+> **Note:** Conventional T/S enclosure modelling does not fully characterise DZ behaviour. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with memory across half-cycles. Standard T/S tools alone cannot characterise its behaviour.
 
 ---
 
