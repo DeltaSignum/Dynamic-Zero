@@ -65,29 +65,30 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ---
 
-# Impedance Measurements
+# DZ vs. sealed box --- SPL and impedance
 
-![Impedance — DZ vs. sealed box](images/dz_vs_sealed_impd.jpg)
+![DZ vs. sealed box](dz_vs_sealed_spl_impdc.jpg)
 
-Impedance comparison using the same 2-inch driver.
+Same 2-inch driver, same 0.35 L primary volume, same 1.5 V drive.
 
-- Driver Fs: approximately 168.9 Hz
-- Sealed reference rear volume: 0.35 L
-- DZ enclosure volume: approximately 0.47 L
-- Sense resistor: 15 Ω / 5 W
-- Calibration reference resistor: 5.3 Ω
-- Measurement software: REW V5.31.3
-- Full impedance calibration used
+**Green:** Dynamic Zero\
+**Red:** sealed reference
 
-## Observed result
+The combined measurement shows two simultaneous changes:
 
-The sealed configuration shows its main impedance resonance at approximately 200 Hz.
+-   the main impedance peak shifts from approximately 200 Hz to 170 Hz
+    while increasing from approximately 22 Ω to 25 Ω;
+-   the DZ configuration produces approximately 4--5 dB higher SPL over
+    a broad frequency range compared with the sealed reference.
 
-The DZ configuration shows its main impedance resonance at approximately 170 Hz.
+The important observation is the combination of a downward shift of the
+main impedance peak, an increase in its magnitude, and a broadband SPL
+increase.
 
-The corresponding impedance peaks are approximately 22 Ω and 25 Ω respectively.
+These measurements show that the DZ pneumatic network changes the
+electromechanical loading seen by the driver compared with the sealed
+reference.
 
-Raw REW measurement data are provided for independent inspection and analysis.
 
 ---
 
