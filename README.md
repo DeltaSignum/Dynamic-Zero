@@ -69,7 +69,7 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ![DZ vs. sealed box](images/dz_vs_sealed_spl_impdc.jpg)
 
-Same 2-inch driver, same 0.35 L primary volume, same 1.5 V drive.
+Same 2-inch driver, same 0.35 L primary volume, same 1.5 V input.
 
 **Green:** Dynamic Zero\
 **Red:** sealed reference
