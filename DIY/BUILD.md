@@ -65,7 +65,7 @@ Use:
 
 **Source:** [AliExpress](https://es.aliexpress.com/item/1005011545930370.html)
 
-Torx, hex socket, or Phillips (+) heads can be used. Phillips (+) may be more convenient for the smallest screws.**.
+Torx, hex socket, or Phillips (+) heads can be used. Phillips (+) may be more convenient for the smallest screws.
 
 ---
 
