@@ -65,9 +65,7 @@ Use:
 
 **Source:** [AliExpress](https://es.aliexpress.com/item/1005011545930370.html)
 
-Torx or hex socket heads can be used.
-
-For small inexpensive screws, **Torx is recommended because the head is less likely to strip during assembly**.
+Torx, hex socket, or Phillips (+) heads can be used. Phillips (+) may be more convenient for the smallest screws.**.
 
 ---
 
