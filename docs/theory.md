@@ -153,11 +153,13 @@ graph TD
 ```
 
 
-1. **Mass Accumulation (DMI):** The Dynamic Mass Interchanger gathers a dense, active air mass directly behind the moving diaphragm.
-2. **Impulse Injection (DM Impulser):** Accumulated air is accelerated through the Impulser — the inertial initiator element without which the signal cannot be coherently reconstructed across cycles.
-3. **Dual-State Mass in Time (DM Container):** The Container holds the air mass in alternating energy states — positive (compression) and negative (rarefaction) — effectively separated in time. This stored past-cycle energy forms the base upon which the incoming signal constructs the present acoustic output.
-4. **Time & Asymmetry Compensation (DM Delta Compensator):** The Compensator absorbs fluid phase delays, timing mismatches between past stored energy and the incoming wave, and structural pressure asymmetries. It activates only when past and future half-cycles diverge; under ideal conditions, it remains acoustically silent.
-5. **Reciprocal Inverted Push:** Near the +0/−0 turnover points, the stored energy state naturally reverses, dynamically pre-loading the diaphragm for the incoming wave front.
+1. **Pneumatic Exchange (DMI):** The Dynamic Mass Interchanger forms the primary exchange interface between the driver diaphragm and the internal DZ pneumatic network, transferring air-mass momentum in both directions.
+
+2. **Inertial Transfer (DM Impulser):** The DM Impulser governs the acceleration and transfer of moving air mass between the DMI and the DM Container.
+
+3. **Pneumatic State Continuity (DM Container):** The Container forms part of the pneumatic volume in which pressure distribution and air-mass momentum from preceding motion remain physically present and become part of the initial state for subsequent system motion.
+
+4. **State Difference Compensation (DM Delta Compensator):** The Compensator provides controlled bidirectional mass exchange when the inherited pneumatic state and the new system input produce a state difference that cannot be accommodated by the internal pneumatic network alone.
 
 > *This represents the working theoretical hypothesis under ideal DZ conditions. Practical chamber volume ratios and geometric tolerances are continuously refined through empirical prototyping. Precision of internal geometry is critical: mistimed resonances within chambers or channels will destabilise the architecture.*
 
