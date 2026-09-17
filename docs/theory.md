@@ -65,7 +65,7 @@ A useful conceptual analogy for the DZ energy interaction is a **Master Oscillat
 
 The diagram below illustrates the idealised interaction between the inherited pneumatic state and the new driver-generated state:
 
-![DZ MOPA analogy — pressure interaction across successive half-cycles](images/pressure_time_MOPA_deltasignum.jpg)
+![DZ MOPA analogy — pressure interaction across successive half-cycles](../images/pressure_time_MOPA_deltasignum.jpg)
 
 In an idealised periodic T/2 case:
 
