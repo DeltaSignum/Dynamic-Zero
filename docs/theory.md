@@ -186,7 +186,7 @@ This effect is currently experimental and has not yet been systematically charac
 ## Primary Research Objectives
 
 1. Formalize the mathematical state-space model for state-dependent dynamic air mass coupling.
-2. Empirical measurement of phase response and impedance shifts across scaling steps (Module → Megablock 64).
+2. Empirical measurement of phase response and impedance shifts across scaling steps.
 3. Open-source release of 3D-printable CAD models, slice profiles, and measurement sets for independent verification.
 
 ---
