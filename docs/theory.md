@@ -133,7 +133,7 @@ The Dynamic Zero principle itself does not impose a theoretical lower-frequency 
 Practical implementations are limited by two distinct constraint layers:
 
 - **Driver constraints:** volumetric air displacement (ΔV), mechanical suspension compliance, and motor linearity.
-- **DZ architecture constraints:** chamber geometry, internal damping, and construction tolerances — all of which affect how precisely the pneumatic network can track and anticipate low-frequency half-cycles.
+- **DZ architecture constraints:** chamber geometry, internal damping, and construction tolerances — all of which affect how precisely the pneumatic network can maintain the intended state continuity and interaction at low frequencies.
 
 This theoretical limit highlights the core promise of DZ: low-frequency reproduction is no longer fundamentally limited by the driver's mechanical resonance in a fixed box, but by the engineering precision of the pneumatic network and the volumetric displacement capability of the transducer.
 
@@ -190,17 +190,6 @@ This effect is currently experimental and has not yet been systematically charac
 1. Formalize the mathematical state-space model for state-dependent dynamic air mass coupling.
 2. Empirical measurement of phase response and impedance shifts across scaling steps (Module → Megablock 64).
 3. Open-source release of 3D-printable CAD models, slice profiles, and measurement sets for independent verification.
-
----
-
-## Implementation Paths
-
-Dynamic Zero is an architectural principle, not a fixed product form. It supports two distinct implementation paths:
-
-- **Recursive modular architecture:** Module → Block → Superblock → Megablock → N. The system grows as a self-similar array; each scaling step adds emergent properties not present at the level below.
-- **Standalone architecture:** A single enclosure — for example, a premium multi-way loudspeaker — implementing DZ principles (DMI, DM Impulser, DM Container, DM Delta Compensator) without further recursive scaling.
-
-Both paths share the same core operating principle. The choice between them is an engineering decision, not an architectural one.
 
 ---
 
