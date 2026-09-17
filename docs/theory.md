@@ -8,7 +8,7 @@
 
 **Dynamic Zero (DZ)** is an experimental acoustic array architecture designed to govern system phase, acoustic loading, and force distribution in real time through a dynamic, state-dependent pneumatic air mass.
 
-Rather than treating the cabinet as a static passive box, DZ couples the transducer diaphragm to an active pneumatic network consisting of four core functional nodes: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
+Rather than treating the cabinet as a static passive box, DZ couples the transducer diaphragm to a state-dependent pneumatic network consisting of four core functional nodes: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
 
 The architecture is grounded in a single physical observation: in a conventional driver, the rear diaphragm surface generates an equal and opposite pressure wave that is discarded. DZ treats this anti-pressure as a real, recoverable energy state — the foundation of the entire system.
 
@@ -21,7 +21,7 @@ The architecture is grounded in a single physical observation: in a conventional
 | Traditional Acoustics | Dynamic Zero (DZ) | Consequence |
 |---|---|---|
 | Static resting point (0 V reference) | Dual dynamic reference points (+0 / −0) | Symmetrical energy distribution across both half-cycles |
-| Fixed free-air resonance (Fs) | Dynamic Unreachable Resonance (Fd < Fin) | Continuous acoustic loading at all frequencies |
+| Fixed enclosure-dependent acoustic loading | State-dependent pneumatic loading | Effective pneumatic load changes with system state |
 | Linear, time-invariant system | State-dependent, nonlinear system with memory | Adapts to instantaneous signal state in real time |
 | Thiele–Small (T/S) compatible | Not fully represented by conventional T/S enclosure modelling | Requires new measurement and characterisation approach |
 
@@ -80,6 +80,20 @@ p(t)+[-p(t-T/2)]=2p(t)
 \]
 
 This represents an ideal pressure ratio of 2:1, corresponding to approximately +6 dB. This theoretical value cannot be achieved in a real DZ system due to unavoidable losses.
+
+---
+
+#### Inter-Cycle Momentum Continuity (ICMC)
+...
+
+### MOPA Analogy
+...
+
+## Resonance Is Not the Operating Principle
+...
+
+### 3. The Dynamic Mass & Resonance Tracking Hypothesis (Fd < Fin)
+...
 
 ---
 
