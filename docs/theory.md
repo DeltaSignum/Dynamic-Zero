@@ -59,6 +59,30 @@ ICMC is a physical property of the coupled chamber network — not an artificial
 
 ---
 
+### MOPA Analogy & Non-Resonant Operation
+
+A useful conceptual analogy for the DZ energy interaction is a **Master Oscillator Power Amplifier (MOPA)**. DZ is not an acoustic implementation of an optical MOPA; the comparison refers only to the principle of retaining energy from a preceding state and using it to reinforce the incoming state.
+
+The diagram below illustrates the idealised interaction between the inherited pneumatic state and the new driver-generated state:
+
+![DZ MOPA analogy — pressure interaction across successive half-cycles](images/pressure_time_MOPA_deltasignum.jpg)
+
+In an idealised periodic T/2 case:
+
+\[
+p(t-T/2)=-p(t)
+\]
+
+After pneumatic inversion:
+
+\[
+p(t)+[-p(t-T/2)]=2p(t)
+\]
+
+This represents an ideal pressure ratio of 2:1, corresponding to approximately +6 dB. This theoretical value cannot be achieved in a real DZ system due to unavoidable losses.
+
+---
+
 ### 3. The Dynamic Mass & Resonance Tracking Hypothesis (Fd < Fin)
 
 Conventional Thiele–Small (T/S) theory relies on a fixed free-air driver resonance (Fs), below which diaphragm displacement becomes unconstrained and highly distorted.
