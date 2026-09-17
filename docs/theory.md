@@ -136,15 +136,7 @@ This effect is currently experimental and has not yet been systematically charac
 
 ---
 
-## Coupling Topology
-
-Dynamic Zero is fundamentally a coupled architecture. Electrical coupling is only one aspect; mechanical, pneumatic, and acoustic coupling are intrinsic to the architecture itself — present within a single Module and extending across the full array hierarchy.
-
-**Hierarchical series coupling is the preferred topology.** It naturally accommodates unavoidable module differences: driver tolerances, suspension variations, floor distance, room boundary interaction, and local acoustic loading. In a series-coupled array, these differences are distributed across the network rather than concentrated at individual nodes.
-
-Parallel coupling remains possible but is expected to require significantly better driver matching and more uniform operating conditions. At larger array sizes, parallel configurations may introduce inter-module phase conflicts that series topology inherently suppresses.
-
-> In Dynamic Zero, coupling is not an implementation detail — it is the operating principle.
+**Array topology note:** Early experiments indicate that DZ modules may interact when connected in series. The resulting behaviour suggests that electrical connection topology can influence interaction between individual modules. The effect has not yet been systematically characterised.
 
 ---
 
