@@ -37,7 +37,7 @@ Traditional driver topologies operate around a single static mechanical resting 
 
 - **Dual Dynamic Reference Points (+0 and −0):** The system operates around two dynamic phase-equilibrium points (+0 and −0), representing the instantaneous velocity turnover bounds of each half-cycle.
 - **Full-Bridge Analogy:** Similar to a balanced audio amplifier splitting swing symmetrically (+6 V / −6 V), DZ treats both half-cycles as fully symmetric active operating regimes. This is not a physical increase in diaphragm excursion amplitude — it is an energetic symmetry principle: both half-cycles are actively driven by stored pneumatic energy, rather than one active half-cycle followed by a passive mechanical return.
-- **Anticipatory Pneumatic Mechanism:** The pneumatic network operates through alternating positive and negative pressure states, reconstructing the *incoming* signal from the +0/−0 turnover point onward. The earlier this turnover point is identified, the more precisely the system anticipates the next wave front. This anticipatory behaviour — rather than reactive response — is the fundamental distinction from passive bass-reflex and transmission-line topologies.
+- **State-Continuous Pneumatic Mechanism:** The pneumatic network maintains physical continuity between successive half-cycles. The new input therefore interacts with the pneumatic state inherited from preceding motion rather than beginning from an independently reset state.
 
 ---
 
