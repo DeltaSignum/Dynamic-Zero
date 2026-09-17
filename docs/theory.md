@@ -126,24 +126,13 @@ graph TD
 
 ---
 
-## Scalable & Organic Array Topology
+## Scalable Array Topology
 
-Dynamic Zero is designed as an **expandable, self-similar architecture** rather than a static enclosure. The system scales modularly as an N×N matrix:
+Dynamic Zero modules can be combined into larger arrays.
 
-```mermaid
-graph LR
-    A[Module 1×] --> B[Block 2×]
-    B --> C[Block 4×]
-    C --> D[Superblock 8×]
-    D --> E[...N×]
-```
+During early experiments, an interaction between individual DZ modules was observed when multiple modules were connected **in series**. The combined system did not behave simply as a collection of independent modules, suggesting that electrical connection topology and the resulting driver interaction may influence the overall system behaviour.
 
-- **Module (1 Node):** Base functional unit containing a full-range transducer and internal coupling chambers.
-- **Block (2 Modules):** Primary paired unit establishing reciprocal pressure balance.
-- **Superblock (4 Modules / 2 Blocks):** 2×2 self-similar array providing phase stabilisation across multiple driver pairs. Empirical measurements show progressive low-frequency stabilisation and extension compared to a single Module.
-- **Megablock Array (16× to 64×+):** Extended matrix demonstrating that phase-locking and pneumatic balance scale continuously as the array grows.
-
-**Array topology note:** Series vs. parallel wiring configuration affects inter-module phase balance. Series configurations better compensate for spatial placement variations (distance from floor, room boundary interactions). Parallel configurations expose individual driver tolerance differences and may introduce phase conflicts at larger array sizes. Wiring topology is therefore a critical design variable at Megablock scale.
+This effect is currently experimental and has not yet been systematically characterised.
 
 ---
 
