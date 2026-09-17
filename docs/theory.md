@@ -83,32 +83,6 @@ This represents an ideal pressure ratio of 2:1, corresponding to approximately +
 
 ---
 
-#### Inter-Cycle Momentum Continuity (ICMC)
-
-The retention of fluid (air mass) momentum state between successive half-cycles within the DZ pneumatic network. Each half-cycle output is constructed upon the momentum state established during the previous cycle, creating a continuous, time-dependent acoustic process.
-
-ICMC is a physical property of the coupled chamber network — not an artificial storage mechanism, but a direct consequence of air mass inertia persisting across cycle boundaries.
-
-### MOPA Analogy
-
-A useful conceptual analogy for the DZ energy interaction is a **Master Oscillator Power Amplifier (MOPA)**. DZ is not an acoustic implementation of an optical MOPA; the comparison refers only to the principle of retaining energy from a preceding state and using it to reinforce the new input.
-
-![DZ MOPA analogy — pressure interaction across successive half-cycles](../images/pressure-time-MOPA-deltasignum.jpg)
-
-In an idealised periodic T/2 case:
-
-\[
-p(t-T/2)=-p(t)
-\]
-
-After pneumatic inversion:
-
-\[
-p(t)+[-p(t-T/2)]=2p(t)
-\]
-
-This represents an ideal pressure ratio of 2:1, corresponding to approximately **+6 dB**. This theoretical value cannot be achieved in a real DZ system due to unavoidable losses.
-
 ### Resonance Is Not the Operating Principle
 
 Dynamic Zero is **not a resonance-based loudspeaker architecture**.
