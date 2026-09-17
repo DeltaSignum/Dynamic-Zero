@@ -173,10 +173,6 @@ This effect is currently experimental and has not yet been systematically charac
 
 ---
 
-**Array topology note:** Early experiments indicate that DZ modules may interact when connected in series. The resulting behaviour suggests that electrical connection topology can influence interaction between individual modules. The effect has not yet been systematically characterised.
-
----
-
 ## Key Experimental Observations
 
 - **Subharmonic Generation:** Strong, coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally as input frequency changes — structured, not chaotic — consistent with a nonlinear system with memory.
