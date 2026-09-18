@@ -57,6 +57,8 @@ The retention of fluid (air mass) momentum state between successive half-cycles 
 
 ICMC is a physical property of the coupled chamber network — not an artificial storage mechanism, but a direct consequence of air mass inertia persisting across cycle boundaries.
 
+> **State-space extension:** See [`state-model.md`](state-model.md) for the working model of distributed physical memory, momentum heritage, and erasure heritage in DZ.
+
 ---
 
 ### MOPA Analogy & Non-Resonant Operation
