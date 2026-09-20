@@ -1,8 +1,8 @@
-## Dumplings Analogy — Coupled Pneumatic Mass
+## Bellows Analogy — Coupled Pneumatic Mass
 
   ---
 
-  ![Dumplings analogy](../images/dumplings_analogy.jpg)
+  ![Bellows analogy](../images/bellows_analogy.jpg)
 
   ---
 
