@@ -2,7 +2,7 @@
 
   ---
 
-  ![Dumplings analogy](images/dumplings_analogy.jpg)
+  ![Dumplings analogy](../images/dumplings_analogy.jpg)
 
   ---
 
