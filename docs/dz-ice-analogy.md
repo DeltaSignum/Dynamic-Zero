@@ -49,7 +49,7 @@ This is the most fundamental distinction between ICE and DZ:
 
 ---
 
-### 4. Exhaust Tuning Analogy — Useful Interaction vs Parasitic Resonance
+## 4. Exhaust Tuning Analogy — Useful Interaction vs Parasitic Resonance
 
 An ICE exhaust system can be tuned so that pressure-wave behaviour assists cylinder scavenging and torque within a particular operating range.
 
