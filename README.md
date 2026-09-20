@@ -148,7 +148,7 @@ This repository does not ask for belief. It provides an engineering architecture
 
 - [ICE ↔ DZ — Closed-Cycle Pneumatic Engine Analogy](docs/dz-ice-analogy.md)
 - [Conceptual Continuity: Villchur → Dynamic Zero](docs/dz_villchur_analogy.md)
-- [Dumplings Analogy — Coupled Pneumatic Mass](docs/dz_dumplings_analogy.md)
+- [Bellows Analogy — Coupled Pneumatic Mass](docs/dz_bellows_analogy.md)
 
 ---
 
