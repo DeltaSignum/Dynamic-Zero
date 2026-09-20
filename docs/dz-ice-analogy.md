@@ -1,5 +1,11 @@
 # DZ – ICE Analogy: Closed-Cycle Pneumatic Engine Logic
 
+---
+
+![dz_ice](../images/dz_ice.jpg)
+![dz_muffler](../images/dz_muffler.jpg)
+
+---
 This analogy is intended to help those familiar with Internal Combustion Engines (ICE) or general mechanical engineering understand the Dynamic Zero (DZ) architecture.
 
 **Core idea:** DZ is not a "box with a speaker". DZ is an internal pneumatic cycle. It is not an open system — it has no "exhaust". Energy circulates in a closed loop, and its components perform functions analogous to an engine cycle.
