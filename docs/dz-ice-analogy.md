@@ -49,7 +49,19 @@ This is the most fundamental distinction between ICE and DZ:
 
 ---
 
-## 4. "Ignition Timing Angle" = Turnover Point (+0 / −0)
+### 4. Exhaust Tuning Analogy — Useful Interaction vs Parasitic Resonance
+
+An ICE exhaust system can be tuned so that pressure-wave behaviour assists cylinder scavenging and torque within a particular operating range.
+
+Outside that range, the same acoustic structure does not necessarily disappear or stop resonating. Instead, its pressure-wave timing becomes less favourable: the useful contribution can decrease while unwanted resonant behaviour becomes more significant.
+
+The DZ analogy is similar. Resonance itself is not the intended operating mechanism. The useful condition is the dynamically matched interaction of the driver and pneumatic system. When that interaction moves away from its optimal state, useful reciprocal transfer decreases and parasitic resonance can become more dominant.
+
+In both cases, resonance is not automatically the useful effect. What matters is whether the dynamic interaction occurs at the right state and time.
+
+---
+
+## 5. "Ignition Timing Angle" = Turnover Point (+0 / −0)
 
 In both systems, the most critical parameter is timing / phase.
 
@@ -62,7 +74,7 @@ In both systems, the most critical parameter is timing / phase.
 
 ---
 
-## 5. Warm-Up Time (Compensator Time Constant)
+## 6. Warm-Up Time (Compensator Time Constant)
 
 DZ observation: *"Closing the DM Delta Compensator immediately terminates DZ effects. Re-opening requires approximately 4–5 seconds before the system re-establishes its state."*
 
@@ -72,7 +84,7 @@ In the ICE analogy, this corresponds to engine warm-up — the time until the re
 
 ---
 
-## 6. Summary
+## 7. Summary
 
 | | ICE | DZ |
 |---|---|---|
@@ -84,7 +96,7 @@ In the ICE analogy, this corresponds to engine warm-up — the time until the re
 
 ---
 
-## 7. Symbolic Identity
+## 8. Symbolic Identity
 
 > **Delta Signum = Ignition Angle = Turnover Point (+0 / −0)**
 
