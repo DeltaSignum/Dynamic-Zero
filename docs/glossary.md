@@ -1,6 +1,10 @@
 # Glossary — Dynamic Zero Architectural Terminology
 
-> **Note:** DZ-specific terminology is used only where conventional terminology does not adequately describe the intended architectural function. As the theoretical model develops, project-specific terms may be simplified, consolidated, or removed where standard physical descriptions are sufficient.
+**Note:** Where useful, the glossary provides the **closest conventional acoustic or pneumatic analogue** for a DZ term. These analogues are intended as reference points rather than exact equivalents, since a DZ element may combine several conventional physical properties or functions.
+
+If a more appropriate established term or analogue exists, suggestions are welcome.
+
+DZ-specific terminology is used only where conventional terminology does not adequately describe the intended architectural function. As the theoretical model develops, project-specific terms may be simplified, consolidated, or removed where standard physical descriptions are sufficient.
 
 To avoid ambiguity, the terms used throughout the Dynamic Zero framework are defined as follows.
 
