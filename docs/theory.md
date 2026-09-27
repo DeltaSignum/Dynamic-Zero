@@ -4,6 +4,44 @@
 
 ---
 
+# Dynamic Zero --- Design Principle vs. Mechanism Interpretation
+
+> **Important context**
+>
+> Dynamic Zero is an experimental, measurement-driven architecture. The
+> physical behaviour of the system is observed first; the interpretation
+> of the mechanisms is refined as new measurements and comparisons
+> become available. Descriptions in this project should therefore not be
+> read as a claim that every aspect of the operating mechanism was
+> predicted in advance or is already fully understood.
+
+------------------------------------------------------------------------
+
+## Design Principle vs. Mechanism Interpretation
+
+The core design principle of Dynamic Zero has remained unchanged since
+the earliest prototypes: to control the interaction between the
+diaphragm and the moving air mass, rather than intentionally relying on
+resonance as the primary operating mechanism.
+
+While the design objective has remained constant, the complete behaviour
+of the system was not predicted in advance. Several characteristics
+emerged only after physical prototypes were constructed, measured and
+compared against reference enclosures.
+
+As a result, the design direction remains unchanged, while the
+interpretation of the underlying mechanisms continues to evolve as new
+measurements and observations become available.
+
+**Dynamic Zero should therefore be viewed as a measurement-driven
+architecture rather than a theory-driven architecture.**
+
+In other words, the observed behaviour is not modified to fit the
+theory. The theory is continuously refined to explain the observed
+behaviour.
+
+---
+
 ## Executive Overview
 
 **Dynamic Zero (DZ)** is an experimental acoustic array architecture designed to govern system phase, acoustic loading, and force distribution in real time through a dynamic, state-dependent pneumatic air mass.
