@@ -6,7 +6,7 @@
 
 **Diaphragm motion changes the pneumatic state of the system, while that pneumatic state subsequently modifies the mechanical/acoustic load acting on the diaphragm.**
 
-**The measurements demonstrate that the behaviour of the loudspeaker diaphragm can be modified through controlled pneumatic loading of its rear surface.**
+**Measurements show that diaphragm behavior can be altered by controlled pneumatic loading of its rear surface.**
 
 The physical mechanisms involved may include acoustic wave propagation, air-mass inertia, pressure evolution, viscous losses, and their phase relationships — all of which may contribute on different time scales.
 
