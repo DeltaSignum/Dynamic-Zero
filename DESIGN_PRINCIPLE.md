@@ -10,6 +10,6 @@
 
 The physical mechanisms involved may include acoustic wave propagation, air-mass inertia, pressure evolution, viscous losses, and their phase relationships — all of which may contribute on different time scales.
 
-The theoretical model may be refined as new measurements are obtained, but the underlying DZ design principle remains unchanged.
+The theoretical model may be refined as new data arrives, but the underlying DZ design principle remains unchanged.
 
 The geometry itself is also not restricted to the present number of chambers, restrictions, or muffling stages. These are implementation parameters rather than the defining principle of the system.
