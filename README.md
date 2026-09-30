@@ -69,7 +69,7 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 ---
 
-# DZ vs. sealed box --- SPL and impedance
+# DZ vs. sealed box - SPL and impedance
 
 ![DZ vs. sealed box](images/dz_vs_sealed_spl_impdc.jpg)
 
