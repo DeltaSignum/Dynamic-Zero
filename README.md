@@ -15,7 +15,11 @@ Rather than treating the loudspeaker enclosure as a passive structure, Dynamic Z
 
 Dynamic Zero is not a commercial loudspeaker.
 It is an engineering research project.
+---
 
+> **Core Design Principle:**  
+> The defining principle of Dynamic Zero is documented separately in [DESIGN_PRINCIPLE.md](DESIGN_PRINCIPLE.md).
+> 
 ---
 
 ## Origins
