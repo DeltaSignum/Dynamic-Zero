@@ -82,8 +82,7 @@ The combined measurement shows two simultaneous changes:
 
 -   the main impedance peak shifts from approximately 200 Hz to 170 Hz
     while increasing from approximately 22 Ω to 25 Ω;
--   the DZ configuration produces approximately 4--5 dB higher SPL over
-    a broad frequency range compared with the sealed reference.
+-   the DZ configuration produces approximately 10 dB higher SPL across a broad low-frequency range compared with the sealed reference, while both responses remain similar at higher frequencies.
 
 The important observation is the combination of a downward shift of the
 main impedance peak, an increase in its magnitude, and a broadband SPL
