@@ -104,7 +104,7 @@ At greater distances, environmental reflections and modes become more dominant, 
 
 ---
 
-### DZ vs. Sealed Box — Group Delay
+# DZ vs. Sealed Box — Group Delay
 
 ![Dynamic Zero — Group Delay](images/group_delay_dynamic_zero.jpg)
 *Dynamic Zero.*
