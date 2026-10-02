@@ -107,18 +107,15 @@ At greater distances, environmental reflections and modes become more dominant, 
 ### DZ vs. Sealed Box — Group Delay
 
 ![Sealed reference — Group Delay](images/group_delay_sealed_box.jpg)
-
 *Sealed reference.*
 
 ![Dynamic Zero — Group Delay](images/group_delay_dynamic_zero.jpg)
-
 *Dynamic Zero.*
 
-Green: Dynamic Zero
-
+Green: Dynamic Zero  
 Red: sealed reference
 
-Same 2-inch driver, 1.5 V input, 40 cm measurement distance, and identical environmental conditions.
+Same 2-inch driver, same input, 40 cm measurement distance, and identical environmental conditions.
 
 Despite the approximately **10 dB broadband increase in low-frequency SPL**, the DZ configuration exhibits practically the same overall group-delay behaviour as the sealed reference, without a corresponding broadband increase in delay.
 
