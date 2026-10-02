@@ -104,13 +104,23 @@ At greater distances, environmental reflections and modes become more dominant, 
 
 ---
 
-![DMDC OPEN / CLOSED near-field comparison](images/dmdc_c_o_nf.jpg)
+### DZ vs. Sealed Box — Group Delay
 
-*Near-field measurement at approximately 2 cm from the diaphragm.*
+![Sealed reference — Group Delay](images/group_delay_sealed_box.jpg)
 
-This measurement is not a frequency-response characterization of the complete DZ system. The microphone was positioned approximately 2 cm from the diaphragm for a direct local A/B comparison between DMDC OPEN and DMDC CLOSED states.
+*Sealed reference.*
 
-**The measured behaviour is not characteristic of a conventional bass-reflex (DBR) system.**
+![Dynamic Zero — Group Delay](images/group_delay_dynamic_zero.jpg)
+
+*Dynamic Zero.*
+
+Same 2-inch driver, 1.5 V input, 40 cm measurement distance, and identical environmental conditions.
+
+Despite the approximately **10 dB broadband increase in low-frequency SPL**, the DZ configuration exhibits practically the same overall group-delay behaviour as the sealed reference, without a corresponding broadband increase in delay.
+
+The sharp fluctuations at very low frequencies are present in both measurements and should not be interpreted as individual system resonances without further verification.
+
+**Key observation:** The increased low-frequency output is achieved without a corresponding increase in group delay relative to the sealed reference.
 
 ---
 
