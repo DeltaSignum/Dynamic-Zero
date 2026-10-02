@@ -113,6 +113,8 @@ At greater distances, environmental reflections and modes become more dominant, 
 ![Dynamic Zero — Group Delay](images/group_delay_dynamic_zero.jpg)
 
 *Dynamic Zero.*
+Green: Dynamic Zero
+Red: sealed reference
 
 Same 2-inch driver, 1.5 V input, 40 cm measurement distance, and identical environmental conditions.
 
