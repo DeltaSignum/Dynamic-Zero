@@ -71,9 +71,9 @@ Outdoor measurements (open air, Tenerife) show consistent results.*
 
 # DZ vs. sealed box - SPL and impedance
 
-![DZ vs. sealed box](images/dz_vs_sealed_spl_impdc.jpg)
+![DZ vs. sealed box](images/2026_09_25_SPL_impdc_sealed_vs_DZ_rerrace_2_points.jpg)
 
-Same 2-inch driver, same 0.35 L primary volume, same 1.5 V input.
+Same 2-inch driver, same 0.35 L primary volume, same sealed/DZ input.
 
 **Green:** Dynamic Zero\
 **Red:** sealed reference
@@ -93,6 +93,15 @@ These measurements show that the DZ pneumatic network changes the
 electromechanical loading seen by the driver compared with the sealed
 reference.
 
+### Measurement Distance — 40 cm
+
+The 40 cm measurement distance was chosen as a practical compromise.
+
+At shorter distances, the result becomes highly sensitive to microphone position relative to the diaphragm and front outlet, and may not represent the combined acoustic output of the system.
+
+At greater distances, environmental reflections and modes become more dominant, while the limited low-frequency output of the 2-inch driver reduces the signal-to-noise ratio.
+
+**This is a comparative DZ vs. sealed-box test. Both configurations were measured under identical conditions, making their relative behaviour the primary observation.**
 
 ---
 
