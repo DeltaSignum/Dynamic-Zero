@@ -106,11 +106,11 @@ At greater distances, environmental reflections and modes become more dominant, 
 
 ### DZ vs. Sealed Box — Group Delay
 
-![Sealed reference — Group Delay](images/group_delay_sealed_box.jpg)
-*Sealed reference.*
-
 ![Dynamic Zero — Group Delay](images/group_delay_dynamic_zero.jpg)
 *Dynamic Zero.*
+
+![Sealed reference — Group Delay](images/group_delay_sealed_box.jpg)
+*Sealed reference.*
 
 Green: Dynamic Zero  
 Red: sealed reference
