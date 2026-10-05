@@ -228,7 +228,9 @@ The goal of this license is to encourage replication,
 experimentation, manufacturing and derivative designs
 while preserving attribution and project lineage.
 
-See LICENSE for details.
+See [LICENSE](LICENSE.txt) for details.
 
-Commercial licensing:
+Commercial partnerships, custom designs and
+author-supported implementations:
+
 [deltasignumlab@gmail.com](mailto:deltasignumlab@gmail.com)
