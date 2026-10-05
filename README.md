@@ -220,6 +220,15 @@ All concepts, measurements, and conclusions are the author's original work.
 
 Dynamic Zero — © 2026 Mindaugas Mickus / Delta Signum Lab
 
-Licensed under [CC BY-NC 4.0](LICENSE.txt).
+## License
 
-Commercial licensing: [deltasignumlab@gmail.com](mailto:deltasignumlab@gmail.com)
+Dynamic Zero is licensed under CERN-OHL-W v2.
+
+The goal of this license is to encourage replication,
+experimentation, manufacturing and derivative designs
+while preserving attribution and project lineage.
+
+See LICENSE for details.
+
+Commercial licensing:
+[deltasignumlab@gmail.com](mailto:deltasignumlab@gmail.com)
