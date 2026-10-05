@@ -222,15 +222,13 @@ Dynamic Zero — © 2026 Mindaugas Mickus / Delta Signum Lab
 
 ## License
 
-Dynamic Zero is licensed under CERN-OHL-W v2.
+Dynamic Zero is licensed under **CERN-OHL-W v2** (CERN Open Hardware Licence Weak Copyleft).
 
-The goal of this license is to encourage replication,
-experimentation, manufacturing and derivative designs
-while preserving attribution and project lineage.
+© 2026 Mindaugas Mickus / Delta Signum Lab
+
+The goal of this license is to encourage replication, experimentation, manufacturing, and derivative designs while preserving attribution and project lineage.
 
 See [LICENSE](LICENSE.txt) for details.
 
-Commercial partnerships, custom designs and
-author-supported implementations:
-
+For commercial partnerships, custom designs, and author-supported implementations:  
 [deltasignumlab@gmail.com](mailto:deltasignumlab@gmail.com)
