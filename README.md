@@ -102,6 +102,19 @@ At greater distances, environmental reflections and modes become more dominant, 
 
 **This is a comparative DZ vs. sealed-box test. Both configurations were measured under identical conditions, making their relative behaviour the primary observation.**
 
+### Measurement Position Matters
+
+Two microphone positions were used in separate DZ-to-sealed comparisons:
+
+- **Driver near-field (approximately 1–2 cm from the diaphragm):** DZ produced approximately **4–5 dB higher SPL** than the sealed reference. The microphone position was matched between configurations.
+- **40 cm measurement distance:** DZ produced up to approximately **10 dB higher SPL** in the measured low-frequency range, with the difference depending on frequency.
+
+The near-field measurement characterizes the local driver response, while the 40 cm measurement captures the combined acoustic output of the DZ system.
+
+These results describe separate comparisons at different microphone positions. **They are not additive** and do not establish independent SPL contributions from the diaphragm and the Dynamic Mass Delta Compensator (DMDC).
+
+The physical explanation for the distance-dependent difference remains under investigation. No 1 m comparison has been measured.
+
 ---
 
 # DZ vs. Sealed Box - Group Delay
