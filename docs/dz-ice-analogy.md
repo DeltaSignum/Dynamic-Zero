@@ -2,8 +2,8 @@
 
 ---
 
-![dz_ice](../images/dz_ice.jpg)
-![dz_muffler](../images/dz_muffler.jpg)
+![dz_ice](../images/dynamic-zero-internal-combustion-engine-acoustic-analogy.jpg)
+![dz_muffler](../images/loudspeaker-pneumatic-muffler-exhaust-resonance-analogy.jpg)
 
 ---
 This analogy is intended to help those familiar with Internal Combustion Engines (ICE) or general mechanical engineering understand the Dynamic Zero (DZ) architecture.
