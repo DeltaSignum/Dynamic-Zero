@@ -50,6 +50,10 @@ Rather than treating the cabinet as a static passive box, DZ couples the transdu
 
 The architecture is grounded in a single physical observation: in a conventional driver, the rear diaphragm surface generates an equal and opposite pressure wave that is discarded. DZ treats this anti-pressure as a real, recoverable energy state — the foundation of the entire system.
 
+The original architectural objective was not to create a secondary acoustic radiator. The objective was to recover pneumatic energy and air-mass momentum that would normally be dissipated and return it to the diaphragm, preserving a single primary acoustic source whenever possible.
+
+In practice, other DZ elements may also contribute measurable acoustic output. Such output is currently regarded as a consequence of system operation rather than the primary design objective.
+
 ![DZ Diagram — Proportions](../images/DZ%20diagram-proportions.jpg)
 
 ---
