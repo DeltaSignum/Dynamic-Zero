@@ -44,13 +44,13 @@ behaviour.
 
 ## Executive Overview
 
-**Dynamic Zero (DZ)** is an experimental acoustic array architecture designed to govern system phase, acoustic loading, and force distribution in real time through a dynamic, state-dependent pneumatic air mass.
+**Dynamic Zero (DZ)** is an experimental acoustic array architecture designed to govern system phase, acoustic loading, and force distribution in real time through a dynamic, state-dependent pneumatic network.
 
 Rather than treating the cabinet as a static passive box, DZ couples the transducer diaphragm to a state-dependent pneumatic network consisting of four core functional nodes: the **Dynamic Mass Interchanger (DMI)**, **DM Impulser**, **DM Container**, and **DM Delta Compensator**.
 
-The architecture is grounded in a single physical observation: in a conventional driver, the rear diaphragm surface generates an equal and opposite pressure wave that is discarded. DZ treats this anti-pressure as a real, recoverable energy state — the foundation of the entire system.
+The architecture is grounded in a single physical observation: in a conventional driver, the rear diaphragm surface generates an equal and opposite pressure wave that is discarded. DZ treats this rear-wave energy as recoverable pneumatic work rather than waste.
 
-The original architectural objective was not to create a secondary acoustic radiator. The objective was to recover pneumatic energy and air-mass momentum that would normally be dissipated and return it to the diaphragm, preserving a single primary acoustic source whenever possible.
+The original architectural objective was not to create a secondary acoustic radiator. The objective was to recover pneumatic energy and air-mass momentum that would normally be dissipated and return it to the active system state.
 
 In practice, other DZ elements may also contribute measurable acoustic output. Such output is currently regarded as a consequence of system operation rather than the primary design objective.
 
@@ -73,13 +73,13 @@ In essence, DZ treats the loudspeaker as a state-dependent pneumatic system rath
 
 ### 1. Balanced Excursion Architecture (+0 / −0 Reference Points)
 
-Traditional driver topologies operate around a single static mechanical resting point — analogous to a single-ended amplifier operating between 0 V and +12 V. Under high excursion, this leads to asymmetric suspension strain and mechanical distortion.
+Traditional driver topologies operate around a single static mechanical resting point — analogous to a single-ended amplifier operating between 0 V and +12 V. Under high excursion, this leads to asymmetric loading and energy dissipation.
 
 **Dynamic Zero operates as a fully balanced (bridge-mode) mechanical-pneumatic architecture:**
 
 - **Dual Dynamic Reference Points (+0 and −0):** The system operates around two dynamic phase-equilibrium points (+0 and −0), representing the instantaneous velocity turnover bounds of each half-cycle.
-- **Full-Bridge Analogy:** Similar to a balanced audio amplifier splitting swing symmetrically (+6 V / −6 V), DZ treats both half-cycles as fully symmetric active operating regimes. This is not a physical increase in diaphragm excursion amplitude — it is an energetic symmetry principle: both half-cycles are actively driven by stored pneumatic energy, rather than one active half-cycle followed by a passive mechanical return.
-- **State-Continuous Pneumatic Mechanism:** The pneumatic network maintains physical continuity between successive half-cycles. The new input therefore interacts with the pneumatic state inherited from preceding motion rather than beginning from an independently reset state.
+- **Full-Bridge Analogy:** Similar to a balanced audio amplifier splitting swing symmetrically (+6 V / −6 V), DZ treats both half-cycles as fully symmetric active operating regimes.
+- **State-Continuous Pneumatic Mechanism:** The pneumatic network maintains physical continuity between successive half-cycles. The new input therefore interacts with the pneumatic state inherited from the previous motion.
 
 ---
 
@@ -89,22 +89,23 @@ To model and evaluate the nonlinear behaviour of the DZ architecture, two govern
 
 #### Reciprocal Pneumatic Symmetry (RPS)
 
-The architectural ideal state of a DZ module in which pneumatic energy across both half-cycles becomes functionally equivalent, independent of signal amplitude or frequency. In this state, the DM Impulser and DM Container operate as a unified two-phase mechanism, and the DM Delta Compensator functions only as a minor correction layer rather than an active participant.
+The architectural ideal state of a DZ module in which pneumatic energy across both half-cycles becomes functionally equivalent, independent of signal amplitude or frequency. In this state, the DM Impulser and compensator network minimise asymmetry and preserve continuity of energy exchange.
 
-RPS represents the theoretical design target of the DZ architecture. Practical implementations approach but do not guarantee this state, due to driver tolerances, chamber geometry variations, and diaphragm asymmetries.
+RPS represents the theoretical design target of the DZ architecture. Practical implementations approach but do not guarantee this state, due to driver tolerances, chamber geometry variations, and diaphragm imperfections.
 
 #### Inter-Cycle Momentum Continuity (ICMC)
 
-The retention of fluid (air mass) momentum state between successive half-cycles within the DZ pneumatic network. Each half-cycle output is constructed upon the momentum state established during the previous cycle, creating a continuous, time-dependent acoustic process.
+The retention of fluid (air mass) momentum state between successive half-cycles within the DZ pneumatic network. Each half-cycle output is constructed upon the momentum state established during the previous half-cycle.
 
 ICMC is a physical property of the coupled chamber network — not an artificial storage mechanism, but a direct consequence of air mass inertia persisting across cycle boundaries.
 
-> **Extended state model:** The distributed physical memory hypothesis, including momentum heritage, mismatch-dependent attenuation, and second-order erasure heritage, is developed separately in [`state-model.md`](state-model.md).
+> **Extended state model:** The distributed physical memory hypothesis, including momentum heritage, mismatch-dependent attenuation, and second-order erasure heritage, is developed separately in [state-space and memory model notes](./architecture.md).
+
 ---
 
 ### MOPA Analogy & Non-Resonant Operation
 
-A useful conceptual analogy for the DZ energy interaction is a **Master Oscillator Power Amplifier (MOPA)**. DZ is not an acoustic implementation of an optical MOPA; the comparison refers only to the principle of retaining energy from a preceding state and using it to reinforce the incoming state.
+A useful conceptual analogy for the DZ energy interaction is a **Master Oscillator Power Amplifier (MOPA)**. DZ is not an acoustic implementation of an optical MOPA; the comparison refers only to the dynamic interaction between inherited and newly generated energy states.
 
 The diagram below illustrates the idealised interaction between the inherited pneumatic state and the new driver-generated state:
 
@@ -145,11 +146,11 @@ Conventional Thiele–Small (T/S) theory relies on a fixed free-air driver reson
 
 DZ introduces the concept of **Dynamic Resonance (Fd)**:
 
-- **Fluid Momentum Coupling:** The internal chambers act as an adaptive pneumatic governor. As signal velocity changes, flow inertia through the DM Impulser dynamically alters the effective air mass coupled to the diaphragm.
-- **Frequency Tracking (Fd < Fin):** As the incoming signal frequency (Fin) drops, the active moving air mass automatically increases, keeping the system's dynamic resonance Fd **continuously below the instantaneous input frequency**.
-- **Controlled Displacement:** Because Fin constantly remains above Fd, the diaphragm operates in a continuously loaded acoustic regime across all frequencies — eliminating uncontrolled sub-resonance excursion.
+- **Fluid Momentum Coupling:** The internal chambers act as an adaptive pneumatic governor. As signal velocity changes, flow inertia through the DM Impulser dynamically alters the effective air mass coupling.
+- **Frequency Tracking (Fd < Fin):** As the incoming signal frequency (Fin) drops, the active moving air mass automatically increases, keeping the system's dynamic resonance Fd continuously below the signal frequency.
+- **Controlled Displacement:** Because Fin constantly remains above Fd, the diaphragm operates in a continuously loaded acoustic regime across all frequencies — eliminating uncontrolled sub-resonant excursion.
 
-> **Note:** Conventional T/S enclosure modelling does not fully characterise DZ behaviour. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with memory across half-cycles. Standard T/S tools alone cannot characterise its behaviour.
+> **Note:** Conventional T/S enclosure modelling does not fully characterise DZ behaviour. T/S assumes a linear, time-invariant system with fixed parameters. DZ is a state-dependent, nonlinear system with distributed momentum memory.
 
 ---
 
@@ -157,15 +158,13 @@ DZ introduces the concept of **Dynamic Resonance (Fd)**:
 
 The fundamental difference is one of design priority: conventional T/S enclosure modelling is resonance-centred, while DZ is pneumatic-process-centred.
 
-T/S driver parameters (Fs, Vas, Qts, Re, etc.) remain valid for characterising the driver itself. However, conventional T/S enclosure simulation assumes a passive acoustic load. Because DZ actively manages the pneumatic state surrounding the driver, T/S simulation output does not predict DZ system behaviour — even when accurate driver parameters are used.
+T/S driver parameters (Fs, Vas, Qts, Re, etc.) remain valid for characterising the driver itself. However, conventional T/S enclosure simulation assumes a passive acoustic load. Because DZ actively modifies the working fluid state around the diaphragm, the system cannot be reduced to a simple passive resonance model.
 
-T/S modelling characterises the driver/enclosure system primarily through small-signal parameters, acoustic compliance, moving mass, damping and resonant behaviour. DZ does not deny these effects, nor does it claim that resonance or wave phenomena disappear.
+T/S modelling characterises the driver/enclosure system primarily through small-signal parameters, acoustic compliance, moving mass, damping and resonant behaviour. DZ does not deny these effects, nor does it ignore them. Instead, the architecture is designed primarily around the pneumatic state and controlled mass exchange surrounding the radiator. Resonant and wave effects remain present, but they are not the primary mechanism.
 
-Instead, the DZ architecture is designed primarily around the pneumatic state and controlled mass exchange surrounding the radiator. Resonant and wave effects remain present, but they are not the primary mechanism around which the internal architecture is dimensioned.
+Therefore, reducing DZ to chamber volumes and equivalent port lengths can produce a conventional resonant model of the geometry, but it does not necessarily describe the pneumatic behaviour that the design is built around.
 
-Therefore, reducing DZ to chamber volumes and equivalent port lengths can produce a conventional resonant model of the geometry, but it does not necessarily describe the pneumatic behaviour that the DZ architecture is intended to control.
-
-DZ also introduces system variables that are not represented directly in the conventional T/S parameter set: the effective front-to-rear interaction area ratio (including rear-side restrictions from the voice-coil former, basket openings and motor structure), nonlinear suspension behaviour across dual dynamic reference points (+0/−0), and state-dependent pneumatic coupling with momentum continuity across half-cycles.
+DZ also introduces system variables that are not represented directly in the conventional T/S parameter set: the effective front-to-rear interaction area ratio, rear-side restrictions, and state-dependent mass interchange dynamics.
 
 ---
 
@@ -176,9 +175,9 @@ The Dynamic Zero principle itself does not impose a theoretical lower-frequency 
 Practical implementations are limited by two distinct constraint layers:
 
 - **Driver constraints:** volumetric air displacement (ΔV), mechanical suspension compliance, and motor linearity.
-- **DZ architecture constraints:** chamber geometry, internal damping, and construction tolerances — all of which affect how precisely the pneumatic network can maintain the intended state continuity and interaction at low frequencies.
+- **DZ architecture constraints:** chamber geometry, internal damping, and construction tolerances — all of which affect how precisely the pneumatic network can maintain the intended state continuity.
 
-This theoretical limit highlights the core promise of DZ: low-frequency reproduction is no longer fundamentally limited by the driver's mechanical resonance in a fixed box, but by the engineering precision of the pneumatic network and the volumetric displacement capability of the transducer.
+This theoretical limit highlights the core promise of DZ: low-frequency reproduction is no longer fundamentally limited by the driver's mechanical resonance in a fixed box, but by the engineering precision and physical constraints of the system.
 
 ---
 
@@ -187,24 +186,23 @@ This theoretical limit highlights the core promise of DZ: low-frequency reproduc
 Within an individual module, energy interchange operates as a continuous, momentum-driven fluid pendulum:
 
 ```mermaid
-graph TD
-    A[Driver Diaphragm] <--> B[Dynamic Mass Interchanger - DMI]
-    B <--> C[DM Impulser]
-    C <--> D[DM Container]
-    D <--> E[DM Delta Compensator]
-    E <-- A
+flowchart TD
+    A["Driver Diaphragm"] <--> B["Dynamic Mass Interchanger - DMI"]
+    B <--> C["DM Impulser"]
+    C <--> D["DM Container"]
+    D <--> E["DM Delta Compensator"]
+    A --> E
 ```
 
-
-1. **Pneumatic Exchange (DMI):** The Dynamic Mass Interchanger forms the primary exchange interface between the driver diaphragm and the internal DZ pneumatic network, transferring air-mass momentum in both directions.
+1. **Pneumatic Exchange (DMI):** The Dynamic Mass Interchanger forms the primary exchange interface between the driver diaphragm and the internal DZ pneumatic network, transferring air-mass momentum into and out of the working fluid.
 
 2. **Inertial Transfer (DM Impulser):** The DM Impulser governs the acceleration and transfer of moving air mass between the DMI and the DM Container.
 
-3. **Pneumatic State Continuity (DM Container):** The Container forms part of the pneumatic volume in which pressure distribution and air-mass momentum from preceding motion remain physically present and become part of the initial state for subsequent system motion.
+3. **Pneumatic State Continuity (DM Container):** The Container forms part of the pneumatic volume in which pressure distribution and air-mass momentum from preceding motion remain physically present.
 
-4. **State Difference Compensation (DM Delta Compensator):** The Compensator provides controlled bidirectional mass exchange when the inherited pneumatic state and the new system input produce a state difference that cannot be accommodated by the internal pneumatic network alone.
+4. **State Difference Compensation (DM Delta Compensator):** The Compensator provides controlled bidirectional mass exchange when the inherited pneumatic state and the new system input produce a state mismatch.
 
-> *This represents the working theoretical hypothesis under ideal DZ conditions. Practical chamber volume ratios and geometric tolerances are continuously refined through empirical prototyping. Precision of internal geometry is critical: mistimed resonances within chambers or channels will destabilise the architecture.*
+> *This represents the working theoretical hypothesis under ideal DZ conditions. Practical chamber volume ratios and geometric tolerances are continuously refined through empirical prototyping.*
 
 ---
 
@@ -212,7 +210,7 @@ graph TD
 
 Dynamic Zero modules can be combined into larger arrays.
 
-During early experiments, an interaction between individual DZ modules was observed when multiple modules were connected **in series**. The combined system did not behave simply as a collection of independent modules, suggesting that electrical connection topology and the resulting driver interaction may influence the overall system behaviour.
+During early experiments, an interaction between individual DZ modules was observed when multiple modules were connected **in series**. The combined system did not behave simply as a collection of independent modules.
 
 This effect is currently experimental and has not yet been systematically characterised.
 
@@ -220,8 +218,8 @@ This effect is currently experimental and has not yet been systematically charac
 
 ## Key Experimental Observations
 
-- **Subharmonic Generation:** Strong, coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally as input frequency changes — structured, not chaotic — consistent with a nonlinear system with memory.
-- **Compensator Time Constant:** Closing the DM Delta Compensator eliminates DZ effects immediately. Re-opening requires approximately 4–5 seconds for the system to re-establish its pneumatic energy state — consistent with a physical energy accumulation time constant, not an electronic switching artefact.
+- **Subharmonic Generation:** Strong, coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally as input frequency changes — structured, not chaotic.
+- **Compensator Time Constant:** Closing the DM Delta Compensator eliminates DZ effects immediately. Re-opening requires approximately 4–5 seconds for the system to re-establish its pneumatic energy state.
 
 ---
 
