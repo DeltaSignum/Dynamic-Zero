@@ -12,7 +12,7 @@ Pneumatic Continuity Acoustics (PCA),
 an acoustic architecture based on pneumatic state
 continuity between successive half-cycles.**
 
-**A fully balanced mechanical-pneumatic architecture operating around dual dynamic reference points: +0 and −0.**
+**Dynamic Zero operates around dual dynamic reference points (+0 and −0), forming a balanced mechanical-pneumatic system rather than a conventional resonant enclosure.**
 
 Dynamic Zero (DZ) is an experimental open engineering acoustic architecture exploring alternative approaches to loudspeaker system design. The architecture operates as a hybrid of acoustic-pneumatic mechanics and state-dependent momentum continuity.
 
