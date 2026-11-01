@@ -192,7 +192,7 @@ graph TD
     B <--> C[DM Impulser]
     C <--> D[DM Container]
     D <--> E[DM Delta Compensator]
-    E <--> A
+    E <-- A
 ```
 
 
