@@ -10,7 +10,7 @@
 **Dynamic Zero is an experimental implementation of
 Pneumatic Continuity Acoustics (PCA),
 an acoustic architecture based on pneumatic state
-continuity between successive half-cycles.
+continuity between successive half-cycles.**
 
 **A fully balanced mechanical-pneumatic architecture operating around dual dynamic reference points: +0 and −0.**
 
