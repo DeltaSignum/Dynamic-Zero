@@ -18,8 +18,9 @@ Dynamic Zero (DZ) is an experimental open engineering acoustic architecture expl
 
 Rather than treating the loudspeaker enclosure as a passive structure, Dynamic Zero investigates whether the acoustic energy normally dissipated behind the diaphragm can become an active part of the system.
 
-Dynamic Zero is not a commercial loudspeaker.
-It is an engineering research project.
+Dynamic Zero is currently an open engineering research project exploring Pneumatic Continuity Acoustics (PCA) and alternative loudspeaker architectures.
+While currently not a commercial product, the project is open to future practical applications.
+
 ---
 
 > **Core Design Principle:**  
