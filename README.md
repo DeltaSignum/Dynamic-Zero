@@ -20,7 +20,6 @@ Rather than treating the loudspeaker enclosure as a passive structure, Dynamic Z
 
 Dynamic Zero is currently an open engineering research project exploring Pneumatic Continuity Acoustics (PCA) and alternative loudspeaker architectures.
 While currently not a commercial product, the project is open to future practical applications.
-
 ---
 
 > **Core Design Principle:**  
