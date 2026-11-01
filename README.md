@@ -7,6 +7,11 @@
 
 **A Delta Signum Open Engineering Project**
 
+**Dynamic Zero is an experimental implementation of
+Pneumatic Continuity Acoustics (PCA),
+an acoustic architecture based on pneumatic state
+continuity between successive half-cycles.
+
 **A fully balanced mechanical-pneumatic architecture operating around dual dynamic reference points: +0 and −0.**
 
 Dynamic Zero (DZ) is an experimental open engineering acoustic architecture exploring alternative approaches to loudspeaker system design. The architecture operates as a hybrid of acoustic-pneumatic mechanics and state-dependent momentum continuity.
