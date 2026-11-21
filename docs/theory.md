@@ -218,7 +218,7 @@ This effect is currently experimental and has not yet been systematically charac
 
 ## Key Experimental Observations
 
-- **Subharmonic Generation:** Strong, coherent subharmonic tracking observed under specific drive conditions. Subharmonics track proportionally as input frequency changes — structured, not chaotic.
+- **Subharmonic behaviour — under investigation:** Possible subharmonic-like behaviour was noted under specific drive conditions. This observation is not confirmed and requires repeated independent measurements before any conclusion can be drawn.
 - **Compensator Time Constant:** Closing the DM Delta Compensator eliminates DZ effects immediately. Re-opening requires approximately 4–5 seconds for the system to re-establish its pneumatic energy state.
 
 ---
