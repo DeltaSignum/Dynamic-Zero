@@ -142,7 +142,7 @@ The sharp fluctuations at very low frequencies are present in both measurements 
 
 ## Key Experimental Observations
 
-- **Subharmonic generation:** Coherent subharmonic behaviour observed under specific drive conditions. The subharmonic evolution is rhythmic and repeatable rather than chaotic.
+- **Subharmonic behaviour — under investigation:** CPossible subharmonic-like behaviour was noted under specific drive conditions. This observation is not confirmed and requires repeated independent measurements before any conclusion can be drawn.
 - **Subsonic Harmonic Enhancement Effect (SHEE):** An experimentally observed effect in which subsonic excitation is accompanied by enhancement of higher harmonic components within the conventional acoustic reproduction range. This allows human hearing to perceive information originating below the conventional reproduction range, even from a small loudspeaker, producing a perceptual result similar to a DSP “bass enhancer” effect, but arising from the physical acoustic system rather than electronic signal processing. The effect weakens toward the driver's Fs.
 - **Compensator time constant:** Closing the DM Delta Compensator suppresses some DZ effect immediately. Re-opening requires approximately 4–5 seconds to re-establish the pneumatic energy state.
 
